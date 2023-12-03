@@ -1,4 +1,4 @@
-# BMPPortraits for BG2EE
+# Constient Portraits for BGEE, BG2EE and EET
 
 Taken from:
 
@@ -15,7 +15,7 @@ Taken from:
 
 ## Overwrite table
 
-[table](https://baldursgate.fandom.com/wiki/Portrait_File_Names)
-[replace](https://baldursgate.fandom.com/wiki/Portraits#Adding_Custom_Portraits)
+- [table](https://baldursgate.fandom.com/wiki/Portrait_File_Names)
+- [replace](https://baldursgate.fandom.com/wiki/Portraits#Adding_Custom_Portraits)
 
 .bmp in 24 bit colour depth
