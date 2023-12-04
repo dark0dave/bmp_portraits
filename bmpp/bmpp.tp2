@@ -163,7 +163,6 @@ END
 ACTION_IF NOT FILE_EXISTS ~override/RASAADL.BMP~ BEGIN
   COPY ~bmpp/portraits/RASAADL.BMP~ ~override~
   COPY ~bmpp/portraits/RASAADM.BMP~ ~override~
-  COPY ~bmpp/portraits/RASAADS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/SAFANAL.BMP~ BEGIN
