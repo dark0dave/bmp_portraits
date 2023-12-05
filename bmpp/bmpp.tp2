@@ -19,227 +19,227 @@ DESIGNATED 1
 REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
 
 ACTION_IF NOT FILE_EXISTS ~override/AJANTISL.BMP~ BEGIN
-  COPY ~bmpp/realistic/AJANTISL.BMP~ ~override~
-  COPY ~bmpp/realistic/AJANTISM.BMP~ ~override~
-  COPY ~bmpp/realistic/AJANTISS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/AJANTISL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/AJANTISM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/AJANTISS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/ALORAL.BMP~ BEGIN
-  COPY ~bmpp/realistic/ALORAL.BMP~ ~override~
-  COPY ~bmpp/realistic/ALORAM.BMP~ ~override~
-  COPY ~bmpp/realistic/ALORAS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ALORAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ALORAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ALORAS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/BAELOTHL.BMP~ BEGIN
-  COPY ~bmpp/realistic/BAELOTHL.BMP~ ~override~
-  COPY ~bmpp/realistic/BAELOTHM.BMP~ ~override~
-  COPY ~bmpp/realistic/BAELOTHS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BAELOTHL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BAELOTHM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BAELOTHS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/BRANWEL.BMP~ BEGIN
-  COPY ~bmpp/realistic/BRANWEL.BMP~ ~override~
-  COPY ~bmpp/realistic/BRANWEM.BMP~ ~override~
-  COPY ~bmpp/realistic/BRANWES.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BRANWEL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BRANWEM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/BRANWES.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/SCHAELL.BMP~ BEGIN
-  COPY ~bmpp/realistic/SCHAELL.BMP~ ~override~
-  COPY ~bmpp/realistic/SCHAELM.BMP~ ~override~
-  COPY ~bmpp/realistic/SCHAELS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SCHAELL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SCHAELM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SCHAELS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/CORANL.BMP~ BEGIN
-  COPY ~bmpp/realistic/CORANL.BMP~ ~override~
-  COPY ~bmpp/realistic/CORANM.BMP~ ~override~
-  COPY ~bmpp/realistic/CORANS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CORANL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CORANM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CORANS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/DORNL.BMP~ BEGIN
-  COPY ~bmpp/portraits/DORNL.BMP~ ~override~
-  COPY ~bmpp/portraits/DORNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/DORNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/DORNM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/DYNAHEIL.BMP~ BEGIN
-  COPY ~bmpp/realistic/DYNAHEIL.BMP~ ~override~
-  COPY ~bmpp/realistic/DYNAHEIM.BMP~ ~override~
-  COPY ~bmpp/realistic/DYNAHEIS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/DYNAHEIL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/DYNAHEIM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/DYNAHEIS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/EDWINL.BMP~ BEGIN
-  COPY ~bmpp/top_edwin/EDWINL.BMP~ ~override~
-  COPY ~bmpp/top_edwin/EDWINM.BMP~ ~override~
-  COPY ~bmpp/top_edwin/EDWINS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_edwin/EDWINL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_edwin/EDWINM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_edwin/EDWINS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/ELDOTHL.BMP~ BEGIN
-  COPY ~bmpp/realistic/ELDOTHL.BMP~ ~override~
-  COPY ~bmpp/realistic/ELDOTHM.BMP~ ~override~
-  COPY ~bmpp/realistic/ELDOTHS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ELDOTHL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ELDOTHM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/ELDOTHS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/FALDORNL.BMP~ BEGIN
-  COPY ~bmpp/top_faldorn/FALDORNL.BMP~ ~override~
-  COPY ~bmpp/top_faldorn/FALDORNM.BMP~ ~override~
-  COPY ~bmpp/top_faldorn/FALDORNS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_faldorn/FALDORNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_faldorn/FALDORNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_faldorn/FALDORNS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/GARRICKL.BMP~ BEGIN
-  COPY ~bmpp/realistic/GARRICKL.BMP~ ~override~
-  COPY ~bmpp/realistic/GARRICKM.BMP~ ~override~
-  COPY ~bmpp/realistic/GARRICKS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GARRICKL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GARRICKM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GARRICKS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/GLINTL.BMP~ BEGIN
-  COPY ~bmpp/realistic/GLINTL.BMP~ ~override~
-  COPY ~bmpp/realistic/GLINTL.BMP~ ~override~
-  COPY ~bmpp/realistic/GLINTL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NImoenL.BMP~ BEGIN
-  COPY ~bmpp/top_imoen/NImoenL.BMP~ ~override~
-  COPY ~bmpp/top_imoen/NImoenM.BMP~ ~override~
-  COPY ~bmpp/top_imoen/NImoenS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/NImoenL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/NImoenM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/NImoenS.BMP~ ~override~
 END
 ACTION_IF NOT FILE_EXISTS ~override/BDIMOENL.BMP~ BEGIN
-  COPY ~bmpp/top_imoen/BDIMOENL.BMP~ ~override~
-  COPY ~bmpp/top_imoen/BDIMOENM.BMP~ ~override~
-  COPY ~bmpp/top_imoen/BDIMOENS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/BDIMOENL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/BDIMOENM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/BDIMOENS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/JAHEIRAL.BMP~ BEGIN
-  COPY ~bmpp/top_jaheira/JAHEIRAL.BMP~ ~override~
-  COPY ~bmpp/top_jaheira/JAHEIRAM.BMP~ ~override~
-  COPY ~bmpp/top_jaheira/JAHEIRAS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/KAGAINL.BMP~ BEGIN
-  COPY ~bmpp/realistic/KAGAINL.BMP~ ~override~
-  COPY ~bmpp/realistic/KAGAINM.BMP~ ~override~
-  COPY ~bmpp/realistic/KAGAINS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KAGAINL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KAGAINM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KAGAINS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/KHALIDL.BMP~ BEGIN
-  COPY ~bmpp/realistic/KHALIDL.BMP~ ~override~
-  COPY ~bmpp/realistic/KHALIDM.BMP~ ~override~
-  COPY ~bmpp/realistic/KHALIDS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KHALIDL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KHALIDM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KHALIDS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/KIVANL.BMP~ BEGIN
-  COPY ~bmpp/realistic/KIVANL.BMP~ ~override~
-  COPY ~bmpp/realistic/KIVANM.BMP~ ~override~
-  COPY ~bmpp/realistic/KIVANS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KIVANL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KIVANM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/KIVANS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NMINSCL.BMP~ BEGIN
-  COPY ~bmpp/top_minsc/NMINSCL.BMP~ ~override~
-  COPY ~bmpp/top_minsc/NMINSCM.BMP~ ~override~
-  COPY ~bmpp/top_minsc/NMINSCS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_minsc/NMINSCL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_minsc/NMINSCM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_minsc/NMINSCS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/MKHIINL.BMP~ BEGIN
-  COPY ~bmpp/realistic/MKHIINL.BMP~ ~override~
-  COPY ~bmpp/realistic/MKHIINM.BMP~ ~override~
-  COPY ~bmpp/realistic/MKHIINS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MKHIINL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MKHIINM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MKHIINS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/MONTARL.BMP~ BEGIN
-  COPY ~bmpp/realistic/MONTARL.BMP~ ~override~
-  COPY ~bmpp/realistic/MONTARM.BMP~ ~override~
-  COPY ~bmpp/realistic/MONTARS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MONTARL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MONTARM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/MONTARS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NEERAL.BMP~ BEGIN
-  COPY ~bmpp/top_neera/NEERAL.BMP~ ~override~
-  COPY ~bmpp/top_neera/NEERAM.BMP~ ~override~
-  COPY ~bmpp/top_neera/NEERAS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_neera/NEERAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_neera/NEERAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_neera/NEERAS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/QUAYLEL.BMP~ BEGIN
-  COPY ~bmpp/realistic/QUAYLEL.BMP~ ~override~
-  COPY ~bmpp/realistic/QUAYLEM.BMP~ ~override~
-  COPY ~bmpp/realistic/QUAYLES.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/QUAYLEL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/QUAYLEM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/QUAYLES.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/RASAADL.BMP~ BEGIN
-  COPY ~bmpp/portraits/RASAADL.BMP~ ~override~
-  COPY ~bmpp/portraits/RASAADM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/RASAADL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/RASAADM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/SAFANAL.BMP~ BEGIN
-  COPY ~bmpp/realistic/SAFANAL.BMP~ ~override~
-  COPY ~bmpp/realistic/SAFANAM.BMP~ ~override~
-  COPY ~bmpp/realistic/SAFANAS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SAFANAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SAFANAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SAFANAS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/SHARTELL.BMP~ BEGIN
-  COPY ~bmpp/realistic/SHARTELL.BMP~ ~override~
-  COPY ~bmpp/realistic/SHARTELM.BMP~ ~override~
-  COPY ~bmpp/realistic/SHARTELS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SHARTELL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SHARTELM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SHARTELS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/SKIEL.BMP~ BEGIN
-  COPY ~bmpp/realistic/SKIEL.BMP~ ~override~
-  COPY ~bmpp/realistic/SKIEM.BMP~ ~override~
-  COPY ~bmpp/realistic/SKIES.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SKIEL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SKIEM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/SKIES.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/TIAXL.BMP~ BEGIN
-  COPY ~bmpp/realistic/TIAXL.BMP~ ~override~
-  COPY ~bmpp/realistic/TIAXM.BMP~ ~override~
-  COPY ~bmpp/realistic/TIAXS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/TIAXL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/TIAXM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/TIAXS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/VICONIAL.BMP~ BEGIN
-  COPY ~bmpp/top_viconia/VICONIAL.BMP~ ~override~
-  COPY ~bmpp/top_viconia/VICONIAM.BMP~ ~override~
-  COPY ~bmpp/top_viconia/VICONIAS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/VICONIAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/VICONIAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/VICONIAS.BMP~ ~override~
 END
 ACTION_IF NOT FILE_EXISTS ~override/BDVICONL.BMP~ BEGIN
-  COPY ~bmpp/top_viconia/BDVICONL.BMP~ ~override~
-  COPY ~bmpp/top_viconia/BDVICONM.BMP~ ~override~
-  COPY ~bmpp/top_viconia/BDVICONS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/BDVICONL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/BDVICONM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/BDVICONS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/VOGHILNL.BMP~ BEGIN
-  COPY ~bmpp/top_voghlin/VOGHILNL.BMP~ ~override~
-  COPY ~bmpp/top_voghlin/VOGHILNM.BMP~ ~override~
-  COPY ~bmpp/top_voghlin/VOGHILNS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_voghlin/VOGHILNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_voghlin/VOGHILNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_voghlin/VOGHILNS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/XANL.BMP~ BEGIN
-  COPY ~bmpp/realistic/XANL.BMP~ ~override~
-  COPY ~bmpp/realistic/XANM.BMP~ ~override~
-  COPY ~bmpp/realistic/XANS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XANL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XANM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XANS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/XZARL.BMP~ BEGIN
-  COPY ~bmpp/realistic/XZARL.BMP~ ~override~
-  COPY ~bmpp/realistic/XZARM.BMP~ ~override~
-  COPY ~bmpp/realistic/XZARS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XZARL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XZARM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/XZARS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/YESLICKL.BMP~ BEGIN
-  COPY ~bmpp/realistic/YESLICKL.BMP~ ~override~
-  COPY ~bmpp/realistic/YESLICKM.BMP~ ~override~
-  COPY ~bmpp/realistic/YESLICKS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/YESLICKL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/YESLICKM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/YESLICKS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/CAELARL.BMP~ BEGIN
-  COPY ~bmpp/realistic/CAELARL.BMP~ ~override~
-  COPY ~bmpp/realistic/CAELARM.BMP~ ~override~
-  COPY ~bmpp/realistic/CAELARS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/HEPHERNL.BMP~ BEGIN
-  COPY ~bmpp/realistic/HEPHERNL.BMP~ ~override~
-  COPY ~bmpp/realistic/HEPHERNM.BMP~ ~override~
-  COPY ~bmpp/realistic/HEPHERNS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/UNNAMEDL.BMP~ BEGIN
-  COPY ~bmpp/realistic/UNNAMEDL.BMP~ ~override~
-  COPY ~bmpp/realistic/UNNAMEDM.BMP~ ~override~
-  COPY ~bmpp/realistic/UNNAMEDS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/UNNAMEDL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/UNNAMEDM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/UNNAMEDS.BMP~ ~override~
 END
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -255,129 +255,129 @@ DESIGNATED 2
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
 ACTION_IF NOT FILE_EXISTS ~override/DORNL.BMP~ BEGIN
-  COPY ~bmpp/portraits/DORNL.BMP~ ~override~
-  COPY ~bmpp/portraits/DORNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/DORNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/DORNM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NAerieL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NAerieL.BMP~ ~override~
-  COPY ~bmpp/portraits/NAerieM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NAerieL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NAerieM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NANOMENL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NANOMENL.BMP~ ~override~
-  COPY ~bmpp/portraits/NAmomenM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NANOMENL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NAmomenM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NCerndL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NCerndL.BMP~ ~override~
-  COPY ~bmpp/portraits/NCerndM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NCerndL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NCerndM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NEDWINL.BMP~ BEGIN
-  COPY ~bmpp/top_edwin/NEDWINL.BMP~ ~override~
-  COPY ~bmpp/top_edwin/NEDWINM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_edwin/NEDWINL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_edwin/NEDWINM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NEERAL.BMP~ BEGIN
-  COPY ~bmpp/top_neera/NEERAL.BMP~ ~override~
-  COPY ~bmpp/top_neera/NEERAM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_neera/NEERAL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_neera/NEERAM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NHaerL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NHaerL.BMP~ ~override~
-  COPY ~bmpp/portraits/NHaerM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NHaerL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NHaerM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NImoenL.BMP~ BEGIN
-  COPY ~bmpp/top_imoen/NImoenL.BMP~ ~override~
-  COPY ~bmpp/top_imoen/NImoenM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/NImoenL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/NImoenM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NJaheirL.BMP~ BEGIN
-  COPY ~bmpp/top_jaheira/NJaheirL.BMP~ ~override~
-  COPY ~bmpp/top_jaheira/NJaheirM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_jaheira/NJaheirL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_jaheira/NJaheirM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NJanL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NJanL.BMP~ ~override~
-  COPY ~bmpp/portraits/NJanM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NJanL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NJanM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NKeldorL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NKeldorL.BMP~ ~override~
-  COPY ~bmpp/portraits/NKeldorM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NKeldorL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NKeldorM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NKorganL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NKorganL.BMP~ ~override~
-  COPY ~bmpp/portraits/NKorganM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NKorganL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NKorganM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NMazzyL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NMazzyL.BMP~ ~override~
-  COPY ~bmpp/portraits/NMazzyM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NMazzyL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NMazzyM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NMINSCL.BMP~ BEGIN
-  COPY ~bmpp/top_minsc/NMINSCL.BMP~ ~override~
-  COPY ~bmpp/top_minsc/NMINSCM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_minsc/NMINSCL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_minsc/NMINSCM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NNaliaL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NNaliaL.BMP~ ~override~
-  COPY ~bmpp/portraits/NNaliaM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NNaliaL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NNaliaM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NSarevokL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NSarevokL.BMP~ ~override~
-  COPY ~bmpp/portraits/NSarevokM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NSarevokL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NSarevokM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NValygaL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NValygaL.BMP~ ~override~
-  COPY ~bmpp/portraits/NValygaM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NValygaL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NValygaM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NViconL.BMP~ BEGIN
-  COPY ~bmpp/top_viconia/NViconL.BMP~ ~override~
-  COPY ~bmpp/top_viconia/NViconM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/NViconL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_viconia/NViconM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/NYoshimL.BMP~ BEGIN
-  COPY ~bmpp/portraits/NYoshimL.BMP~ ~override~
-  COPY ~bmpp/portraits/NYoshimM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NYoshimL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/NYoshimM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/OHHEXL.BMP~ BEGIN
-  COPY ~bmpp/portraits/OHHEXL.BMP~ ~override~
-  COPY ~bmpp/portraits/OHHEXM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/OHHEXL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/OHHEXM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/OHHEXXL.BMP~ BEGIN
-  COPY ~bmpp/portraits/OHHEXXL.BMP~ ~override~
-  COPY ~bmpp/portraits/OHHEXXM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/OHHEXXL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/OHHEXXM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/RASAADL.BMP~ BEGIN
-  COPY ~bmpp/portraits/RASAADL.BMP~ ~override~
-  COPY ~bmpp/portraits/RASAADM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/RASAADL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/RASAADM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/WILSONL.BMP~ BEGIN
-  COPY ~bmpp/portraits/WILSONL.BMP~ ~override~
-  COPY ~bmpp/portraits/WILSONM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/WILSONL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/portraits/WILSONM.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/CAELARL.BMP~ BEGIN
-  COPY ~bmpp/realistic/CAELARL.BMP~ ~override~
-  COPY ~bmpp/realistic/CAELARM.BMP~ ~override~
-  COPY ~bmpp/realistic/CAELARS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/CAELARS.BMP~ ~override~
 END
 
 ACTION_IF NOT FILE_EXISTS ~override/HEPHERNL.BMP~ BEGIN
-  COPY ~bmpp/realistic/HEPHERNL.BMP~ ~override~
-  COPY ~bmpp/realistic/HEPHERNM.BMP~ ~override~
-  COPY ~bmpp/realistic/HEPHERNS.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
 END
 
