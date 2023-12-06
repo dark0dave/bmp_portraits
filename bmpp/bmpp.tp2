@@ -14,8 +14,8 @@ LANGUAGE ~English~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~bmppbg1~
-DESIGNATED 1
+BEGIN ~bg1~
+DESIGNATED 0
 REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
 
 ACTION_IF NOT FILE_EXISTS ~override/AJANTISL.BMP~ BEGIN
@@ -95,10 +95,10 @@ ACTION_IF NOT FILE_EXISTS ~override/GLINTL.BMP~ BEGIN
   COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
 END
 
-ACTION_IF NOT FILE_EXISTS ~override/NImoenL.BMP~ BEGIN
-  COPY ~%MOD_FOLDER%/top_imoen/NImoenL.BMP~ ~override~
-  COPY ~%MOD_FOLDER%/top_imoen/NImoenM.BMP~ ~override~
-  COPY ~%MOD_FOLDER%/top_imoen/NImoenS.BMP~ ~override~
+ACTION_IF NOT FILE_EXISTS ~override/IMOENL.BMP~ BEGIN
+  COPY ~%MOD_FOLDER%/top_imoen/IMOENL.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/IMOENM.BMP~ ~override~
+  COPY ~%MOD_FOLDER%/top_imoen/IMOENS.BMP~ ~override~
 END
 ACTION_IF NOT FILE_EXISTS ~override/BDIMOENL.BMP~ BEGIN
   COPY ~%MOD_FOLDER%/top_imoen/BDIMOENL.BMP~ ~override~
@@ -250,8 +250,8 @@ END
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~bmppbg2~
-DESIGNATED 2
+BEGIN ~bg2~
+DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
 ACTION_IF NOT FILE_EXISTS ~override/DORNL.BMP~ BEGIN
