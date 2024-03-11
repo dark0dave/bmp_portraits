@@ -255,3 +255,19 @@ COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
 COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
 COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
 
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// BG2 NPC portraits                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN ~npcs~
+DESIGNATED 2
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
+
+COPY ~%MOD_FOLDER%/npcs~ ~override~
+
+
