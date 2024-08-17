@@ -13,6 +13,10 @@ Taken from:
 - [top_viconia](https://github.com/dark0dave/ensrick_portraits)
 - [top_voghlin](https://github.com/dark0dave/ensrick_portraits)
 
+## More
+
+- [zenosziggurat](https://zenosziggurat.com/rpg-character-sketches-baldurs-gate-revisited-6/)
+
 ## Overwrite table
 
 - [table](https://baldursgate.fandom.com/wiki/Portrait_File_Names)
