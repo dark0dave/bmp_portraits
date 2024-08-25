@@ -255,6 +255,7 @@ COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
 COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
 COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
 
+COPY ~%MOD_FOLDER%/top_clara~ ~override~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
