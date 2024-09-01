@@ -185,7 +185,7 @@ COPY ~%MOD_FOLDER%/portraits/NAerieL.BMP~ ~override~
 COPY ~%MOD_FOLDER%/portraits/NAerieM.BMP~ ~override~
 
 COPY ~%MOD_FOLDER%/portraits/NANOMENL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NAmomenM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/NANOMENM.BMP~ ~override~
 
 COPY ~%MOD_FOLDER%/portraits/NCerndL.BMP~ ~override~
 COPY ~%MOD_FOLDER%/portraits/NCerndM.BMP~ ~override~
