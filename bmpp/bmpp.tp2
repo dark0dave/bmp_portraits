@@ -271,4 +271,26 @@ REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this 
 
 COPY ~%MOD_FOLDER%/npcs~ ~override~
 
+COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override~
+COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override/NJONM.bmp~
+COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override/NJONS.bmp~
 
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Cross Mod Portraits                              \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN ~crossmod~
+DESIGNATED 3
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
+
+// Fade Npc
+ACTION_IF FILE_EXISTS_IN_GAME ~e3fade13.cre~
+THEN BEGIN
+  COPY_EXISTING ~e3fadeg.bmp~ ~override/e3fadel.bmp~
+  COPY_EXISTING ~e3fadeg.bmp~ ~override/e3fadem.bmp~
+  COPY_EXISTING ~e3fadeg.bmp~ ~override/e3fades.bmp~
+END
