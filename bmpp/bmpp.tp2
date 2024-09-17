@@ -294,3 +294,19 @@ THEN BEGIN
   COPY_EXISTING ~e3fadeg.bmp~ ~override/e3fadem.bmp~
   COPY_EXISTING ~e3fadeg.bmp~ ~override/e3fades.bmp~
 END
+
+// Solufein Rescue
+ACTION_IF FILE_EXISTS_IN_GAME ~c#solau1.cre~
+THEN BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~solaf.bmp~
+  THEN BEGIN
+    // Use PPE Portrait for solufein
+    COPY_EXISTING ~solaf.bmp~ ~override/C#SOLAUS.bmp~
+    COPY_EXISTING ~solaf.bmp~ ~override/C#SOLAUM.bmp~
+    // Use PPE Portait for consitent Imrae
+    COPY_EXISTING ~C#SOcre1.CRE~ ~override~
+      WRITE_ASCII 0x34 ~udimrae~
+      WRITE_ASCII 0x3c ~udimrae~
+
+  END
+END
