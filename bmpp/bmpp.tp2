@@ -1,7 +1,7 @@
 BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 
-VERSION ~v0.3~
+VERSION ~v0.4~
 
 LANGUAGE ~English~
          ~english~
@@ -18,153 +18,153 @@ BEGIN ~bg1~
 DESIGNATED 0
 REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
 
-COPY ~%MOD_FOLDER%/realistic/AJANTISL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/AJANTISM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/AJANTISS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override/ajantism.bmp~
+COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override/ajantiss.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/ALORAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/ALORAM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/ALORAS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/aloral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/aloral.bmp~ ~override/aloram.bmp~
+COPY ~%MOD_FOLDER%/realistic/aloral.bmp~ ~override/aloras.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/BAELOTHL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/BAELOTHM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/BAELOTHS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/baelothl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/baelothl.bmp~ ~override/baelothm.bmp~
+COPY ~%MOD_FOLDER%/realistic/baelothl.bmp~ ~override/baeloths.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/BRANWEL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/BRANWEM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/BRANWES.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/branwel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/branwel.bmp~ ~override/branwem.bmp~
+COPY ~%MOD_FOLDER%/realistic/branwel.bmp~ ~override/branwes.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/SCHAELL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SCHAELM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SCHAELS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/schaell.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/schaell.bmp~ ~override/schaelm.bmp~
+COPY ~%MOD_FOLDER%/realistic/schaell.bmp~ ~override/schaels.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/CORANL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CORANM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CORANS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/coranl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/coranl.bmp~ ~override/coranm.bmp~
+COPY ~%MOD_FOLDER%/realistic/coranl.bmp~ ~override/corans.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/DORNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/DORNM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override/dornm.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/DYNAHEIL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/DYNAHEIM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/DYNAHEIS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/dynaheil.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/dynaheil.bmp~ ~override/dynaheim.bmp~
+COPY ~%MOD_FOLDER%/realistic/dynaheil.bmp~ ~override/dynaheis.bmp~
 
-COPY ~%MOD_FOLDER%/top_edwin/EDWINL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_edwin/EDWINM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_edwin/EDWINS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_edwin/edwinl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_edwin/edwinl.bmp~ ~override/edwinm.bmp~
+COPY ~%MOD_FOLDER%/top_edwin/edwinl.bmp~ ~override/edwins.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/ELDOTHL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/ELDOTHM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/ELDOTHS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/eldothl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/eldothl.bmp~ ~override/eldothm.bmp~
+COPY ~%MOD_FOLDER%/realistic/eldothl.bmp~ ~override/eldoths.bmp~
 
-COPY ~%MOD_FOLDER%/top_faldorn/FALDORNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_faldorn/FALDORNM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_faldorn/FALDORNS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_faldorn/faldornl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_faldorn/faldornl.bmp~ ~override/faldornm.bmp~
+COPY ~%MOD_FOLDER%/top_faldorn/faldornl.bmp~ ~override/faldorns.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/GARRICKL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/GARRICKM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/GARRICKS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/garrickl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/garrickl.bmp~ ~override/garrickm.bmp~
+COPY ~%MOD_FOLDER%/realistic/garrickl.bmp~ ~override/garricks.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/GLINTL.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/glintl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/glintl.bmp~ ~override/glintm.bmp~
+COPY ~%MOD_FOLDER%/realistic/glintl.bmp~ ~override/glints.bmp~
 
-COPY ~%MOD_FOLDER%/top_imoen/IMOENL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/IMOENM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/IMOENS.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/BDIMOENL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/BDIMOENM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/BDIMOENS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/bdimoens.bmp~
 
-COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_jaheira/JAHEIRAS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_jaheira/jaheiral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_jaheira/jaheiral.bmp~ ~override/jaheiram.bmp~
+COPY ~%MOD_FOLDER%/top_jaheira/jaheiral.bmp~ ~override/jaheiras.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/KAGAINL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KAGAINM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KAGAINS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/kagainl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/kagainl.bmp~ ~override/kagainm.bmp~
+COPY ~%MOD_FOLDER%/realistic/kagainl.bmp~ ~override/kagains.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/KHALIDL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KHALIDM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KHALIDS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/khalidl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/khalidl.bmp~ ~override/khalidm.bmp~
+COPY ~%MOD_FOLDER%/realistic/khalidl.bmp~ ~override/khalids.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/KIVANL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KIVANM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/KIVANS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/kivanl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/kivanl.bmp~ ~override/kivanm.bmp~
+COPY ~%MOD_FOLDER%/realistic/kivanl.bmp~ ~override/kivans.bmp~
 
-COPY ~%MOD_FOLDER%/top_minsc/NMINSCL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_minsc/NMINSCM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_minsc/NMINSCS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_minsc/nminscl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_minsc/nminscl.bmp~ ~override/nminscm.bmp~
+COPY ~%MOD_FOLDER%/top_minsc/nminscl.bmp~ ~override/nminscs.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/MKHIINL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/MKHIINM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/MKHIINS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/mkhiinl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/mkhiinl.bmp~ ~override/mkhiinm.bmp~
+COPY ~%MOD_FOLDER%/realistic/mkhiinl.bmp~ ~override/mkhiins.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/MONTARL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/MONTARM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/MONTARS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/montarl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/montarl.bmp~ ~override/montarm.bmp~
+COPY ~%MOD_FOLDER%/realistic/montarl.bmp~ ~override/montars.bmp~
 
-COPY ~%MOD_FOLDER%/top_neera/NEERAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_neera/NEERAM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_neera/NEERAS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_neera/neeral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_neera/neeral.bmp~ ~override/neeram.bmp~
+COPY ~%MOD_FOLDER%/top_neera/neeral.bmp~ ~override/neeras.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/QUAYLEL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/QUAYLEM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/QUAYLES.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/quaylel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/quaylel.bmp~ ~override/quaylem.bmp~
+COPY ~%MOD_FOLDER%/realistic/quaylel.bmp~ ~override/quayles.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/RASAADL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/RASAADM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/rasaadl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/rasaadl.bmp~ ~override/rasaadm.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/SAFANAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SAFANAM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SAFANAS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/safanal.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/safanal.bmp~ ~override/safanam.bmp~
+COPY ~%MOD_FOLDER%/realistic/safanal.bmp~ ~override/safanas.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/SHARTELL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SHARTELM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SHARTELS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/shartell.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/shartell.bmp~ ~override/shartelm.bmp~
+COPY ~%MOD_FOLDER%/realistic/shartell.bmp~ ~override/shartels.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/SKIEL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SKIEM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/SKIES.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/skiel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/skiel.bmp~ ~override/skiem.bmp~
+COPY ~%MOD_FOLDER%/realistic/skiel.bmp~ ~override/skies.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/TIAXL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/TIAXM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/TIAXS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/tiaxl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/tiaxl.bmp~ ~override/tiaxm.bmp~
+COPY ~%MOD_FOLDER%/realistic/tiaxl.bmp~ ~override/tiaxs.bmp~
 
-COPY ~%MOD_FOLDER%/top_viconia/VICONIAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/VICONIAM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/VICONIAS.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/BDVICONL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/BDVICONM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/BDVICONS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/bdvicons.bmp~
 
-COPY ~%MOD_FOLDER%/top_voghiln/VOGHILNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_voghiln/VOGHILNM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_voghiln/VOGHILNS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_voghiln/voghilnl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_voghiln/voghilnl.bmp~ ~override/voghilnm.bmp~
+COPY ~%MOD_FOLDER%/top_voghiln/voghilnl.bmp~ ~override/voghilns.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/XANL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/XANM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/XANS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/xanl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/xanl.bmp~ ~override/xanm.bmp~
+COPY ~%MOD_FOLDER%/realistic/xanl.bmp~ ~override/xans.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/XZARL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/XZARM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/XZARS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/xzarl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/xzarl.bmp~ ~override/xzarm.bmp~
+COPY ~%MOD_FOLDER%/realistic/xzarl.bmp~ ~override/xzars.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/YESLICKL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/YESLICKM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/YESLICKS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/yeslickl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/yeslickl.bmp~ ~override/yeslickm.bmp~
+COPY ~%MOD_FOLDER%/realistic/yeslickl.bmp~ ~override/yeslicks.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/CAELARL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CAELARM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CAELARS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override/caelars.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override/hephernm.bmp~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override/hepherns.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/UNNAMEDL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/UNNAMEDM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/UNNAMEDS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/unnamedl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/unnamedl.bmp~ ~override/unnamedm.bmp~
+COPY ~%MOD_FOLDER%/realistic/unnamedl.bmp~ ~override/unnameds.bmp~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -178,82 +178,82 @@ BEGIN ~bg2~
 DESIGNATED 1
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
-COPY ~%MOD_FOLDER%/portraits/DORNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/DORNM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override/dornm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NAerieL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NAerieM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/naeriel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/naeriel.bmp~ ~override/naeriem.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NANOMENL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NANOMENM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nanomenl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nanomenl.bmp~ ~override/nanomenm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NCerndL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NCerndM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ncerndl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ncerndl.bmp~ ~override/ncerndm.bmp~
 
-COPY ~%MOD_FOLDER%/top_edwin/NEDWINL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_edwin/NEDWINM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_edwin/edwinl.bmp~ ~override/nedwinl.bmp~
+COPY ~%MOD_FOLDER%/top_edwin/edwinl.bmp~ ~override/nedwinm.bmp~
 
-COPY ~%MOD_FOLDER%/top_neera/NEERAL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_neera/NEERAM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_neera/neeral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_neera/neeral.bmp~ ~override/neeram.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NHaerL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NHaerM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nhaerl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nhaerl.bmp~ ~override/nhaerm.bmp~
 
-COPY ~%MOD_FOLDER%/top_imoen/NImoenL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_imoen/NImoenM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_imoen/nimoenl.bmp~ ~override/nimoenm.bmp~
 
-COPY ~%MOD_FOLDER%/top_jaheira/NJaheirL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_jaheira/NJaheirM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_jaheira/jaheiral.bmp~ ~override/njaheirl.bmp~
+COPY ~%MOD_FOLDER%/top_jaheira/jaheiral.bmp~ ~override/njaheirm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NJanL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NJanM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/njanl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/njanl.bmp~ ~override/njanm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NKeldorL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NKeldorM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nkeldorl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nkeldorl.bmp~ ~override/nkeldorm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NKorganL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NKorganM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nkorganl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nkorganl.bmp~ ~override/nkorganm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NMazzyL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NMazzyM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nmazzyl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nmazzyl.bmp~ ~override/nmazzym.bmp~
 
-COPY ~%MOD_FOLDER%/top_minsc/NMINSCL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_minsc/NMINSCM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_minsc/nminscl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/top_minsc/nminscl.bmp~ ~override/nminscm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NNaliaL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NNaliaM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nnalial.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nnalial.bmp~ ~override/nnaliam.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NSarevokL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NSarevokM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nsarevokl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nsarevokl.bmp~ ~override/nsarevokm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NValygaL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NValygaM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nvalygal.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nvalygal.bmp~ ~override/nvalygam.bmp~
 
-COPY ~%MOD_FOLDER%/top_viconia/NViconL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/top_viconia/NViconM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/top_viconia/bdviconl.bmp~ ~override/nviconm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/NYoshimL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/NYoshimM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nyoshiml.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/nyoshiml.bmp~ ~override/nyoshimm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/OHHEXL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/OHHEXM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ohhexl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ohhexl.bmp~ ~override/ohhexm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/OHHEXXL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/OHHEXXM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ohhexxl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/ohhexxl.bmp~ ~override/ohhexxm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/RASAADL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/RASAADM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/rasaadl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/rasaadl.bmp~ ~override/rasaadm.bmp~
 
-COPY ~%MOD_FOLDER%/portraits/WILSONL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/portraits/WILSONM.BMP~ ~override~
+COPY ~%MOD_FOLDER%/portraits/wilsonl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/portraits/wilsonl.bmp~ ~override/wilsonm.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/CAELARL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CAELARM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/CAELARS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/realistic/caelarl.bmp~ ~override/caelarl.bmp~
 
-COPY ~%MOD_FOLDER%/realistic/HEPHERNL.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/HEPHERNM.BMP~ ~override~
-COPY ~%MOD_FOLDER%/realistic/HEPHERNS.BMP~ ~override~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override/hephernm.bmp~
+COPY ~%MOD_FOLDER%/realistic/hephernl.bmp~ ~override/hepherns.bmp~
 
 COPY ~%MOD_FOLDER%/top_clara~ ~override~
 
@@ -269,11 +269,13 @@ BEGIN ~npcs~
 DESIGNATED 2
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
-COPY ~%MOD_FOLDER%/npcs~ ~override~
+COPY ~%MOD_FOLDER%/trouver/mel_bads.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/mel_gds.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/nbodhis.bmp~ ~override~
 
-COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override~
-COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override/NJONM.bmp~
-COPY ~%MOD_FOLDER%/bg2ee_realistic/NJONL.bmp~ ~override/NJONS.bmp~
+COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override~
+COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override/njonm.bmp~
+COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override/njons.bmp~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -301,8 +303,8 @@ THEN BEGIN
   ACTION_IF FILE_EXISTS_IN_GAME ~solaf.bmp~
   THEN BEGIN
     // Use PPE Portrait for solufein
-    COPY_EXISTING ~solaf.bmp~ ~override/C#SOLAUS.bmp~
-    COPY_EXISTING ~solaf.bmp~ ~override/C#SOLAUM.bmp~
+    COPY_EXISTING ~solaf.bmp~ ~override/C#solaus.bmp~
+    COPY_EXISTING ~solaf.bmp~ ~override/C#solaum.bmp~
     // Use PPE Portait for consitent Imrae
     COPY_EXISTING ~C#SOcre1.CRE~ ~override~
       WRITE_ASCII 0x34 ~udimrae~
