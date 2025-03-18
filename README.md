@@ -12,7 +12,9 @@ Taken from:
 - [top_neera](https://github.com/dark0dave/ensrick_portrait)
 - [top_viconia](https://github.com/dark0dave/ensrick_portraits)
 - [top_voghlin](https://github.com/dark0dave/ensrick_portraits)
-- [npcs] Bodhi from Minsc and Boo Book of Villainy to have a higher resolution alternate for her in BG2, stolen from Troveur on discord
+- [npcs] Bodhi from Minsc and Boo Book of Villainy to have a higher resolution alternate for her in BG2 stolen from Troveur on discord
+- [trouver] Troveur on discord and G3
+- [ruven] Ruven on discord
 - [greykarasu](https://steamcommunity.com/id/GreyKarasu)
 
 ## More
