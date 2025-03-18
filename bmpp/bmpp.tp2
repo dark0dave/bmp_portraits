@@ -1,7 +1,7 @@
 BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 
-VERSION ~v0.4~
+VERSION ~v0.5~
 
 LANGUAGE ~English~
          ~english~
@@ -16,7 +16,8 @@ LANGUAGE ~English~
 
 BEGIN ~bg1~
 DESIGNATED 0
-REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
+LABEL ~BG1 NPC portraits~
+REQUIRE_PREDICATE ENGINE_IS ~bgee eet~ ~This mod cannot be installed on this game~
 
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override~
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override/ajantism.bmp~
@@ -176,6 +177,7 @@ COPY ~%MOD_FOLDER%/realistic/unnamedl.bmp~ ~override/unnameds.bmp~
 
 BEGIN ~bg2~
 DESIGNATED 1
+LABEL ~BG2 NPC portraits~
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
 COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override~
@@ -260,22 +262,21 @@ COPY ~%MOD_FOLDER%/top_clara~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
-///// BG2 NPC portraits                                \\\\\
+///// Baddies portraits                                \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 BEGIN ~npcs~
 DESIGNATED 2
+LABEL ~Baddies portraits~
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
-COPY ~%MOD_FOLDER%/trouver/mel_bads.bmp~ ~override~
-COPY ~%MOD_FOLDER%/trouver/mel_gds.bmp~ ~override~
-COPY ~%MOD_FOLDER%/trouver/nbodhis.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/baddies~ ~override~
 
 COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override~
-COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override/njonm.bmp~
-COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override/njons.bmp~
+COPY_EXISTING ~njonl.bmp~ ~override/njonm.bmp~
+COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -287,6 +288,7 @@ COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override/njons.bmp~
 
 BEGIN ~crossmod~
 DESIGNATED 3
+LABEL ~Cross Mod Portraits~
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
 
 // Fade Npc
@@ -311,4 +313,50 @@ THEN BEGIN
       WRITE_ASCII 0x3c ~udimrae~
 
   END
+END
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Ruvan NPCs portraits                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN ~ruvan~
+DESIGNATED 5
+LABEL ~Ruvan NPCs portraits~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ ~This mod cannot be installed on this game~
+
+ACTION_IF GAME_IS ~bgee eet~
+THEN BEGIN
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoens.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenl.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenm.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoens.bmp~
+END
+
+ACTION_IF GAME_IS ~bg2ee tob eet~
+THEN BEGIN
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenl.bmp~
+  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
+END
+
+ACTION_IF GAME_IS ~bgee eet~
+THEN BEGIN
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconiam.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconias.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconl.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconm.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdvicons.bmp~
+END
+
+ACTION_IF GAME_IS ~bg2ee tob eet~
+THEN BEGIN
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconl.bmp~
+  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconm.bmp~
 END
