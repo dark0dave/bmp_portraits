@@ -1,7 +1,7 @@
 BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 
-VERSION ~v0.5.1~
+VERSION ~v0.6.0~
 
 LANGUAGE ~English~
          ~english~
@@ -17,7 +17,7 @@ LANGUAGE ~English~
 BEGIN ~bg1~
 DESIGNATED 0
 LABEL ~BG1 NPC portraits~
-REQUIRE_PREDICATE ENGINE_IS ~bgee eet~ ~This mod cannot be installed on this game~
+REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
 
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override~
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override/ajantism.bmp~
