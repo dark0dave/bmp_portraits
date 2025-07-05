@@ -1,10 +1,13 @@
 BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
+AUTO_EVAL_STRINGS
 
-VERSION ~v0.6.0~
+VERSION @0 /* v0.7.0 */
 
+AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
          ~english~
+         ~%MOD_FOLDER%/languages/english/weidu.tra~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -14,10 +17,11 @@ LANGUAGE ~English~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~bg1~
+BEGIN @1 /* bg1 */
 DESIGNATED 0
 LABEL ~BG1 NPC portraits~
-REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ ~This mod cannot be installed on this game~
+GROUP @2 /* Defaults */
+REQUIRE_PREDICATE ENGINE_IS ~bgee bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override~
 COPY ~%MOD_FOLDER%/realistic/ajantisl.bmp~ ~override/ajantism.bmp~
@@ -175,10 +179,11 @@ COPY ~%MOD_FOLDER%/realistic/unnamedl.bmp~ ~override/unnameds.bmp~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~bg2~
+BEGIN @4 /* bg2 */
 DESIGNATED 1
+GROUP @2 /* Defaults */
 LABEL ~BG2 NPC portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override~
 COPY ~%MOD_FOLDER%/portraits/dornl.bmp~ ~override/dornm.bmp~
@@ -267,10 +272,11 @@ COPY ~%MOD_FOLDER%/top_clara~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~npcs~
+BEGIN @5 /* npcs */
 DESIGNATED 2
+GROUP @2 /* Defaults */
 LABEL ~Baddies portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/baddies~ ~override~
 
@@ -286,10 +292,10 @@ COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~crossmod~
+BEGIN @6 /* crossmod */
 DESIGNATED 3
 LABEL ~Cross Mod Portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ ~This mod cannot be installed on this game~
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 // Fade Npc
 ACTION_IF FILE_EXISTS_IN_GAME ~e3fade13.cre~
@@ -323,40 +329,71 @@ END
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN ~ruvan~
-DESIGNATED 5
-LABEL ~Ruvan NPCs portraits~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ ~This mod cannot be installed on this game~
+BEGIN @7 /* ruvan_imeon */
+DESIGNATED 100
+GROUP @8 /* ruvan */
+LABEL ~Ruvan Imeon Portraits~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-ACTION_IF GAME_IS ~bgee eet~
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoens.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenl.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenm.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoens.bmp~
-END
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
 
-ACTION_IF GAME_IS ~bg2ee tob eet~
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenl.bmp~
-  COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
-END
+BEGIN @9 /* ruvan_viconia */
+DESIGNATED 101
+GROUP @8 /* ruvan */
+LABEL ~Ruvan Viconia Portraits~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-ACTION_IF GAME_IS ~bgee eet~
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconiam.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconias.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconl.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconm.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdvicons.bmp~
-END
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/bdvicons.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconm.bmp~
 
-ACTION_IF GAME_IS ~bg2ee tob eet~
-THEN BEGIN
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconl.bmp~
-  COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconm.bmp~
-END
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// trouver portraits                                \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @10 /* trouver_alora */
+DESIGNATED 201
+GROUP @11 /* trouver */
+LABEL ~Trouver Alora Portrais~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override/aloram.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override/aloras.bmp~
+
+BEGIN @12 /* trouver_jaheira */
+DESIGNATED 202
+GROUP @11 /* trouver */
+LABEL ~Trouver Jaheria Portraits~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiram.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiras.bmp~
+
+BEGIN @13 /* trouver_branwen */
+DESIGNATED 203
+GROUP @11 /* trouver */
+LABEL ~Trouver branwen Portraits~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwem.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwes.bmp~
