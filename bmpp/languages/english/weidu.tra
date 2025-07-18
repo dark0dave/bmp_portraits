@@ -1,4 +1,4 @@
-@0    = ~v0.7.0~
+@0    = ~v0.8.0~
 @1    = ~bg1~
 @2    = ~Defaults~
 @3    = ~This mod cannot be installed on this game~
@@ -12,3 +12,5 @@
 @11   = ~trouver~
 @12   = ~trouver_jaheira~
 @13   = ~trouver_branwen~
+@14   = ~zenblacks_sendai~
+@15   = ~zenblack~
