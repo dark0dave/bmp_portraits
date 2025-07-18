@@ -1,3 +1,4 @@
+[![release](https://github.com/dark0dave/bmp_portraits/actions/workflows/release.yaml/badge.svg)](https://github.com/dark0dave/bmp_portraits/actions/workflows/release.yaml)
 # Constient Portraits for BGEE, BG2EE and EET
 
 Taken from:
