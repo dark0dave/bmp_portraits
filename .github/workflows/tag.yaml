@@ -17,6 +17,7 @@ jobs:
         with:
           generateReleaseNotes: true
   call_workflow:
+    needs: [release]
     permissions:
       contents: write
     strategy:
