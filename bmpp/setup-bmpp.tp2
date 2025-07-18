@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.8.0 */
+VERSION @0 /* v0.8.1 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -414,3 +414,29 @@ LABEL ~zenblack sendai~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/sendais.bmp~ ~override~
+
+BEGIN @16 /* zenblacks_dynahier */
+DESIGNATED 301
+GROUP @15 /* zenblack */
+LABEL ~zenblack dynahier~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheil.bmp~
+COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheim.bmp~
+COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheis.bmp~
+
+BEGIN @17 /* zenblacks_viconia */
+DESIGNATED 302
+GROUP @15 /* zenblack */
+LABEL ~zenblack viconia~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdviconl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdvicons.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconm.bmp~
