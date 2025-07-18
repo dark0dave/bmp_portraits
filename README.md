@@ -16,6 +16,7 @@ Taken from:
 - [trouver] Troveur on discord and G3
 - [ruven] Ruven on discord
 - [greykarasu](https://steamcommunity.com/id/GreyKarasu)
+- [zenblack](https://github.com/zenblack)
 
 ## More
 

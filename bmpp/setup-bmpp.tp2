@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.7.0 */
+VERSION @0 /* v0.8.0 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -294,6 +294,7 @@ COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
 
 BEGIN @6 /* crossmod */
 DESIGNATED 3
+GROUP @6 /* crossmod */
 LABEL ~Cross Mod Portraits~
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
@@ -332,7 +333,7 @@ END
 BEGIN @7 /* ruvan_imeon */
 DESIGNATED 100
 GROUP @8 /* ruvan */
-LABEL ~Ruvan Imeon Portraits~
+LABEL ~Ruvan Imeon~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
@@ -347,7 +348,7 @@ COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
 BEGIN @9 /* ruvan_viconia */
 DESIGNATED 101
 GROUP @8 /* ruvan */
-LABEL ~Ruvan Viconia Portraits~
+LABEL ~Ruvan Viconia~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
@@ -381,7 +382,7 @@ COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override/aloras.bmp~
 BEGIN @12 /* trouver_jaheira */
 DESIGNATED 202
 GROUP @11 /* trouver */
-LABEL ~Trouver Jaheria Portraits~
+LABEL ~Trouver Jaheria~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override~
@@ -391,9 +392,25 @@ COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiras.bmp~
 BEGIN @13 /* trouver_branwen */
 DESIGNATED 203
 GROUP @11 /* trouver */
-LABEL ~Trouver branwen Portraits~
+LABEL ~Trouver branwen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwem.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwes.bmp~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Zenblack NPCs portraits                          \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @14 /* zenblacks_sendai */
+DESIGNATED 300
+GROUP @15 /* zenblack */
+LABEL ~zenblack sendai~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/sendais.bmp~ ~override~
