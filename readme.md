@@ -1,4 +1,7 @@
-[![release](https://github.com/dark0dave/bmp_portraits/actions/workflows/release.yaml/badge.svg)](https://github.com/dark0dave/bmp_portraits/actions/workflows/release.yaml)
+[![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/dark0dave/bmp_portraits/releases/latest)
+[![](https://img.shields.io/badge/Windows-0078D6?&style=for-the-badge&logoColor=white&logo=git-for-windows)](https://github.com/dark0dave/bmp_portraits/releases/latest)
+[![](https://img.shields.io/badge/mac%20os-grey?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/dark0dave/bmp_portraits/releases/latest)
+[![](https://img.shields.io/github/actions/workflow/status/dark0dave/bmp_portraits/main.yaml?style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/actions/workflows/main.yaml)
 # Constient Portraits for BGEE, BG2EE and EET
 
 Taken from:
@@ -24,10 +27,15 @@ Taken from:
 - Abazigal dragon is an edit from the one in better NPC faces for BG2EE mod from Nexus
 - Balthazar and Abazigal are modified version of the ones from the improved portraits pack from Nexus
 - unmodified YugaShura uncertain providence
+- Xan, I used a cartoon portrait of him found on instagram
 
 ## More
 
 - [zenosziggurat](https://zenosziggurat.com/rpg-character-sketches-baldurs-gate-revisited-6/)
+
+## Attribution
+
+Please open issue if something is missing for attribution.
 
 ## Overwrite table
 

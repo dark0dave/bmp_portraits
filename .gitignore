@@ -3,3 +3,4 @@
 *.7z
 *.swp
 *.DS_Store
+.envrc
