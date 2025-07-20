@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.8.2 */
+VERSION @0 /* v0.8.3 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -385,9 +385,11 @@ GROUP @11 /* trouver */
 LABEL ~Trouver Jaheria~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiral.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiram.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiras.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/njaheirl.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/njaheirm.bmp~
 
 BEGIN @13 /* trouver_branwen */
 DESIGNATED 203
@@ -395,9 +397,19 @@ GROUP @11 /* trouver */
 LABEL ~Trouver branwen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override~
+COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwel.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwem.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwes.bmp~
+
+BEGIN @18 /* trouver_xan */
+DESIGNATED 204
+GROUP @11 /* trouver */
+LABEL ~Trouver xan~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanl.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanm.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xans.bmp~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
