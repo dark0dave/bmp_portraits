@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.8.5 */
+VERSION @0 /* v0.9.0 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -267,26 +267,6 @@ COPY ~%MOD_FOLDER%/top_clara~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
-///// Baddies portraits                                \\\\\
-/////                                                  \\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-
-BEGIN @5 /* npcs */
-DESIGNATED 2
-GROUP @2 /* Defaults */
-LABEL ~Baddies portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
-
-COPY ~%MOD_FOLDER%/trouver/baddies~ ~override~
-
-COPY ~%MOD_FOLDER%/bg2ee_realistic/njonl.bmp~ ~override~
-COPY_EXISTING ~njonl.bmp~ ~override/njonm.bmp~
-COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
-
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
-/////                                                  \\\\\
 ///// Cross Mod Portraits                              \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -411,6 +391,16 @@ COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanl.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanm.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xans.bmp~
 
+BEGIN @21 /* trouver_baddies */
+DESIGNATED 205
+GROUP @11 /* trouver */
+LABEL ~Trouver Baddies portraits~
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/baddies~ ~override~
+COPY_EXISTING ~njonl.bmp~ ~override/njonm.bmp~
+COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
+
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
@@ -453,10 +443,18 @@ COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdvicons.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconm.bmp~
 
-BEGIN @18 /* zenblacks_yagashrs */
+BEGIN @19 /* zenblacks_yagashrs */
 DESIGNATED 303
 GROUP @15 /* zenblack */
 LABEL ~zenblack yagashrs~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/yagashrs.bmp~ ~override/yagashrs.bmp~
+
+BEGIN @20 /* zenblacks_amelissan */
+DESIGNATED 304
+GROUP @15 /* zenblack */
+LABEL ~zenblack amelissan~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/mel_bads.bmp~ ~override/mel_bads.bmp~
