@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.8.4 */
+VERSION @0 /* v0.8.5 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -452,3 +452,11 @@ COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdviconm.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdvicons.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconm.bmp~
+
+BEGIN @18 /* zenblacks_yagashrs */
+DESIGNATED 303
+GROUP @15 /* zenblack */
+LABEL ~zenblack yagashrs~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/yagashrs.bmp~ ~override/yagashrs.bmp~
