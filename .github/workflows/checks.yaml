@@ -1,0 +1,14 @@
+name: 'checks'
+on:
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          set-safe-directory: true
+          fetch-depth: 0
+      - name: Check for bmp files bigger than 8
+        id: bmp_checks
+        run: ./.github/scripts/check.sh "*bmp"
