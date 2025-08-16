@@ -479,8 +479,8 @@ GROUP @8 /* ruvan */
 LABEL ~Ruvan haerdalis~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/ruven/haerdalis.bmp~ ~override/nhaerl.bmp~
-COPY ~%MOD_FOLDER%/ruven/haerdalis.bmp~ ~override/nhaerm.bmp~
+COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerl.bmp~
+COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerm.bmp~
 
 
 BEGIN @38 /* ruvan_hexaat */
@@ -879,3 +879,11 @@ LABEL ~zenblack amelissan~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/mel_bads.bmp~ ~override/mel_bads.bmp~
+
+BEGIN @61 /* zenblacks_llewren_charname */
+DESIGNATED 305
+GROUP @15 /* zenblack */
+LABEL ~zenblacks llewren charname~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/charname/felfM.bmp~ ~override~
