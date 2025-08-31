@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.10.0 */
+VERSION @0 /* v0.11.0 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
