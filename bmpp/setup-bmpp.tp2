@@ -825,7 +825,7 @@ COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
 BEGIN @62 /* trouver_bg1sod */
 DESIGNATED 290
 GROUP @11 /* trouver */
-LABEL ~Trouver Baddies portraits~
+LABEL ~Trouver bg1sod portraits~
 REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/bg1sod~ ~override~
