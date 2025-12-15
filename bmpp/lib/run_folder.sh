@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+folder=${1}
 index=${2:-100}
-for file in $(ls $1/*bmp);
+for file in $(ls ${folder}/*bmp);
 do
-  lib/process.sh $file $((index++))
+  lib/process.sh ${folder} ${file} $((index++))
 done

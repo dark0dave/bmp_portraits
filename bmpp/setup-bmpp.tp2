@@ -838,31 +838,154 @@ COPY ~%MOD_FOLDER%/trouver/bg1sod~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @14 /* zenblacks_sendai */
-DESIGNATED 300
+BEGIN @63 /* zenblack_aerie */
+DESIGNATED 100
 GROUP @15 /* zenblack */
-LABEL ~zenblack sendai~
+LABEL ~zenblack aerie~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/sendais.bmp~ ~override~
+COPY ~%MOD_FOLDER%/zenblack/aerie.bmp~ ~override/naeriel.bmp~
+COPY ~%MOD_FOLDER%/zenblack/aerie.bmp~ ~override/naeriem.bmp~
 
-BEGIN @16 /* zenblacks_dynahier */
-DESIGNATED 301
+BEGIN @64 /* zenblack_anomen */
+DESIGNATED 101
 GROUP @15 /* zenblack */
-LABEL ~zenblack dynahier~
+LABEL ~zenblack anomen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheil.bmp~
-COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheim.bmp~
-COPY ~%MOD_FOLDER%/zenblack/dynahier.bmp~ ~override/dynaheis.bmp~
+COPY ~%MOD_FOLDER%/zenblack/anomen.bmp~ ~override/nanomenl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/anomen.bmp~ ~override/nanomenm.bmp~
 
-BEGIN @17 /* zenblacks_viconia */
-DESIGNATED 302
+BEGIN @65 /* zenblack_caelar */
+DESIGNATED 102
+GROUP @15 /* zenblack */
+LABEL ~zenblack caelar~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelarl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelars.bmp~
+
+BEGIN @66 /* zenblack_dynaheir */
+DESIGNATED 103
+GROUP @15 /* zenblack */
+LABEL ~zenblack dynaheir~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheil.bmp~
+COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheim.bmp~
+COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheis.bmp~
+
+BEGIN @67 /* zenblack_hexaat */
+DESIGNATED 104
+GROUP @15 /* zenblack */
+LABEL ~zenblack hexaat~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/hexaat.bmp~ ~override/ohhexxl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/hexaat.bmp~ ~override/ohhexxm.bmp~
+
+BEGIN @68 /* zenblack_jaheira */
+DESIGNATED 105
+GROUP @15 /* zenblack */
+LABEL ~zenblack jaheira~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiral.bmp~
+COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiram.bmp~
+COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiras.bmp~
+COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheirl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheirm.bmp~
+
+BEGIN @69 /* zenblack_keldorn */
+DESIGNATED 106
+GROUP @15 /* zenblack */
+LABEL ~zenblack keldorn~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/keldorn.bmp~ ~override/nkeldorl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/keldorn.bmp~ ~override/nkeldorm.bmp~
+
+BEGIN @70 /* zenblack_korgan */
+DESIGNATED 107
+GROUP @15 /* zenblack */
+LABEL ~zenblack korgan~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/korgan.bmp~ ~override/nkorganl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/korgan.bmp~ ~override/nkorganm.bmp~
+
+BEGIN @71 /* zenblack_mazzy */
+DESIGNATED 108
+GROUP @15 /* zenblack */
+LABEL ~zenblack mazzy~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/mazzy.bmp~ ~override/nmazzyl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/mazzy.bmp~ ~override/nmazzym.bmp~
+
+BEGIN @72 /* zenblack_nalia */
+DESIGNATED 109
+GROUP @15 /* zenblack */
+LABEL ~zenblack nalia~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/nalia.bmp~ ~override/nnalial.bmp~
+COPY ~%MOD_FOLDER%/zenblack/nalia.bmp~ ~override/nnaliam.bmp~
+
+BEGIN @73 /* zenblack_neera */
+DESIGNATED 110
+GROUP @15 /* zenblack */
+LABEL ~zenblack neera~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeral.bmp~
+COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeram.bmp~
+COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeras.bmp~
+
+BEGIN @74 /* zenblack_safana */
+DESIGNATED 111
+GROUP @15 /* zenblack */
+LABEL ~zenblack safana~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanal.bmp~
+COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanam.bmp~
+COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanas.bmp~
+
+BEGIN @75 /* zenblack_skie */
+DESIGNATED 112
+GROUP @15 /* zenblack */
+LABEL ~zenblack skie~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skiel.bmp~
+COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skiem.bmp~
+COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skies.bmp~
+
+BEGIN @76 /* zenblack_tamoko */
+DESIGNATED 113
+GROUP @15 /* zenblack */
+LABEL ~zenblack tamoko~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/tamoko.bmp~ ~override/chtaz02.bmp~
+
+BEGIN @77 /* zenblack_valygar */
+DESIGNATED 114
+GROUP @15 /* zenblack */
+LABEL ~zenblack valygar~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/valygar.bmp~ ~override/nvalygal.bmp~
+COPY ~%MOD_FOLDER%/zenblack/valygar.bmp~ ~override/nvalygam.bmp~
+
+BEGIN @78 /* zenblack_viconia */
+DESIGNATED 115
 GROUP @15 /* zenblack */
 LABEL ~zenblack viconia~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconial.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconial.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconiam.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconias.bmp~
@@ -872,26 +995,70 @@ COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdvicons.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconm.bmp~
 
+BEGIN @79 /* zenblack_xan */
+DESIGNATED 116
+GROUP @15 /* zenblack */
+LABEL ~zenblack xan~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xanl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xanm.bmp~
+COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xans.bmp~
+
+BEGIN @80 /* zenblack_yeslick */
+DESIGNATED 117
+GROUP @15 /* zenblack */
+LABEL ~zenblack yeslick~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslickl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslickm.bmp~
+COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslicks.bmp~
+
+
+BEGIN @14 /* zenblacks_sendai */
+DESIGNATED 350
+GROUP @15 /* zenblack */
+LABEL ~zenblack sendai~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/baddies/sendais.bmp~ ~override~
+
 BEGIN @19 /* zenblacks_yagashrs */
-DESIGNATED 303
+DESIGNATED 351
 GROUP @15 /* zenblack */
 LABEL ~zenblack yagashrs~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/yagashrs.bmp~ ~override/yagashrs.bmp~
+COPY ~%MOD_FOLDER%/zenblack/baddies/yagashrs.bmp~ ~override/yagashrs.bmp~
 
 BEGIN @20 /* zenblacks_amelissan */
-DESIGNATED 304
+DESIGNATED 352
 GROUP @15 /* zenblack */
 LABEL ~zenblack amelissan~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/mel_bads.bmp~ ~override/mel_bads.bmp~
+COPY ~%MOD_FOLDER%/zenblack/baddies/mel_bads.bmp~ ~override/mel_bads.bmp~
 
 BEGIN @61 /* zenblacks_llewren_charname */
-DESIGNATED 305
+DESIGNATED 375
 GROUP @15 /* zenblack */
 LABEL ~zenblacks llewren charname~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/charname/felfM.bmp~ ~override~
+
+BEGIN @81 /* zenblacks_ruven_viconia */
+DESIGNATED 385
+GROUP @15 /* zenblack */
+LABEL ~zenblacks ruven viconia~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/bdviconl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/bdvicons.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/nviconm.bmp~

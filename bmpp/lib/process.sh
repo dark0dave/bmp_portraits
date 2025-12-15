@@ -20,7 +20,7 @@ npcs["eldoth"]="eldothl,eldothm,eldoths"
 npcs["faldorn"]="faldornl,faldornm,faldorns"
 npcs["garrick"]="garrickl,garrickm,garricks"
 npcs["glint"]="glintl,glintm,glints"
-npcs["haerdalis"]="nhaerl,nhaerm"
+npcs["haerdali"]="nhaerl,nhaerm"
 npcs["hexaat"]="ohhexxl,ohhexxm"
 npcs["imeon"]="imoenl,imoenm,imoens,bdimoenl,bdimoenm,nimoenl,nimoenm,nimoens"
 npcs["jaheira"]="jaheiral,jaheiram,jaheiras,jaheirl,jaheirm"
@@ -43,6 +43,7 @@ npcs["sarevok"]="nsarevokl,nsarevokm"
 npcs["schael"]="schaell,schaelm,schaels"
 npcs["sharteel"]="shartell,shartelm,shartels"
 npcs["skie"]="skiel,skiem,skies"
+npcs["tamoko"]="chtaz02"
 npcs["tiax"]="tiaxl,tiaxm,tiaxs"
 npcs["valygar"]="nvalygal,nvalygam"
 npcs["viconia"]="viconial,viconiam,viconias,bdviconl,bdviconm,bdvicons,nviconl,nviconm"
@@ -54,29 +55,27 @@ npcs["yeslick"]="yeslickl,yeslickm,yeslicks"
 npcs["yoshimo"]="nyoshiml,nyoshimm"
 
 template() {
+  group=$(cat languages/english/weidu.tra | grep "~${5}~"| awk '{print $1}')
   echo """
-BEGIN ~ruvan_$1~
-DESIGNATED $4
-GROUP @8 /* ruvan */
-LABEL ~Ruvan $1~
+BEGIN ~${5}_${1}~
+DESIGNATED ${4}
+GROUP ${group} /* ${5} */
+LABEL ~${5} ${1}~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
 """
-  for file in $(echo "$2" | tr ',' ' ' ); do
-    echo "COPY ~%MOD_FOLDER%/$3~ ~override/$file.bmp~"
+  for file in $(echo "${2}" | tr ',' ' ' ); do
+    echo "COPY ~%MOD_FOLDER%/${3}~ ~override/${file}.bmp~"
   done
   echo ""
 }
 
 main() {
-  file="$1"
-  index="$2"
+  folder="${1}"
+  file="${2}"
+  index="${3}"
   character=$(echo "$file" | awk -F '/' '{print $NF}' | awk -F '.' '{print $1}')
   selected=${npcs[${character}]}
-  if [ -z "${selected}" ]; then
-    echo "$character not found in npcs, exiting"
-    exit 1
-  fi
-  template "$character" "$selected" "$file" "$index"
+  template "$character" "$selected" "$file" "$index" "$folder"
 }
 
 main "$@"
