@@ -2,7 +2,7 @@ BACKUP ~weidu_external/bmpp/backup~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.12.0 */
+VERSION @0 /* v0.12.0 */ /* v0.12.0 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
@@ -17,11 +17,11 @@ LANGUAGE ~English~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @6 /* crossmod */
+BEGIN @1 /* crossmod */ /* crossmod */
 DESIGNATED 3
-GROUP @6 /* crossmod */
+GROUP @1 /* crossmod */ /* crossmod */
 LABEL ~Cross Mod Portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 // Fade Npc
 ACTION_IF FILE_EXISTS_IN_GAME ~e3fade13.cre~
@@ -56,127 +56,127 @@ END
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
 
-BEGIN @22 /* ruvan_aerie */
+BEGIN @3 /* ruvan_aerie */ /* ruvan_aerie */
 DESIGNATED 100
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan aerie~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/aerie.bmp~ ~override/naeriel.bmp~
 COPY ~%MOD_FOLDER%/ruven/aerie.bmp~ ~override/naeriem.bmp~
 
 
-BEGIN @23 /* ruvan_ajantis */
+BEGIN @5 /* ruvan_ajantis */ /* ruvan_ajantis */
 DESIGNATED 101
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan ajantis~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/ajantis.bmp~ ~override/ajantisl.bmp~
 COPY ~%MOD_FOLDER%/ruven/ajantis.bmp~ ~override/ajantism.bmp~
 COPY ~%MOD_FOLDER%/ruven/ajantis.bmp~ ~override/ajantiss.bmp~
 
 
-BEGIN @24 /* ruvan_alora */
+BEGIN @6 /* ruvan_alora */ /* ruvan_alora */
 DESIGNATED 102
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan alora~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/alora.bmp~ ~override/aloral.bmp~
 COPY ~%MOD_FOLDER%/ruven/alora.bmp~ ~override/aloram.bmp~
 COPY ~%MOD_FOLDER%/ruven/alora.bmp~ ~override/aloras.bmp~
 
 
-BEGIN @25 /* ruvan_anomen */
+BEGIN @7 /* ruvan_anomen */ /* ruvan_anomen */
 DESIGNATED 103
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan anomen~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/anomen.bmp~ ~override/nanomenl.bmp~
 COPY ~%MOD_FOLDER%/ruven/anomen.bmp~ ~override/nanomenm.bmp~
 
 
-BEGIN @26 /* ruvan_caelar */
+BEGIN @8 /* ruvan_caelar */ /* ruvan_caelar */
 DESIGNATED 104
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan caelar~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/caelar.bmp~ ~override/caelarl.bmp~
 COPY ~%MOD_FOLDER%/ruven/caelar.bmp~ ~override/caelarm.bmp~
 COPY ~%MOD_FOLDER%/ruven/caelar.bmp~ ~override/caelars.bmp~
 
 
-BEGIN @27 /* ruvan_cernd */
+BEGIN @9 /* ruvan_cernd */ /* ruvan_cernd */
 DESIGNATED 105
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan cernd~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/cernd.bmp~ ~override/ncerndl.bmp~
 COPY ~%MOD_FOLDER%/ruven/cernd.bmp~ ~override/ncerndm.bmp~
 
 
-BEGIN @28 /* ruvan_clara */
+BEGIN @10 /* ruvan_clara */ /* ruvan_clara */
 DESIGNATED 106
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan clara~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/clara.bmp~ ~override/ohhexl.bmp~
 COPY ~%MOD_FOLDER%/ruven/clara.bmp~ ~override/ohhexm.bmp~
 
 
-BEGIN @29 /* ruvan_coran */
+BEGIN @11 /* ruvan_coran */ /* ruvan_coran */
 DESIGNATED 107
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan coran~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/coran.bmp~ ~override/coranl.bmp~
 COPY ~%MOD_FOLDER%/ruven/coran.bmp~ ~override/coranm.bmp~
 COPY ~%MOD_FOLDER%/ruven/coran.bmp~ ~override/corans.bmp~
 
 
-BEGIN @30 /* ruvan_corwin */
+BEGIN @12 /* ruvan_corwin */ /* ruvan_corwin */
 DESIGNATED 108
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan corwin~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/corwin.bmp~ ~override/corwinl.bmp~
 COPY ~%MOD_FOLDER%/ruven/corwin.bmp~ ~override/corwinm.bmp~
 
 
-BEGIN @31 /* ruvan_dorn */
+BEGIN @13 /* ruvan_dorn */ /* ruvan_dorn */
 DESIGNATED 109
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan dorn~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/dorn.bmp~ ~override/dornl.bmp~
 COPY ~%MOD_FOLDER%/ruven/dorn.bmp~ ~override/dornm.bmp~
 COPY ~%MOD_FOLDER%/ruven/dorn.bmp~ ~override/dorns.bmp~
 
 
-BEGIN @32 /* ruvan_dynaheir */
+BEGIN @14 /* ruvan_dynaheir */ /* ruvan_dynaheir */
 DESIGNATED 110
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan dynaheir~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/dynaheir.bmp~ ~override/dynaheil.bmp~
 COPY ~%MOD_FOLDER%/ruven/dynaheir.bmp~ ~override/dynaheim.bmp~
 COPY ~%MOD_FOLDER%/ruven/dynaheir.bmp~ ~override/dynaheis.bmp~
 
 
-BEGIN @33 /* ruvan_edwin */
+BEGIN @15 /* ruvan_edwin */ /* ruvan_edwin */
 DESIGNATED 111
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan edwin~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/edwin.bmp~ ~override/edwinl.bmp~
 COPY ~%MOD_FOLDER%/ruven/edwin.bmp~ ~override/edwinm.bmp~
@@ -185,64 +185,64 @@ COPY ~%MOD_FOLDER%/ruven/edwin.bmp~ ~override/nedwinl.bmp~
 COPY ~%MOD_FOLDER%/ruven/edwin.bmp~ ~override/nedwinm.bmp~
 
 
-BEGIN @34 /* ruvan_eldoth */
+BEGIN @16 /* ruvan_eldoth */ /* ruvan_eldoth */
 DESIGNATED 112
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan eldoth~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/eldoth.bmp~ ~override/eldothl.bmp~
 COPY ~%MOD_FOLDER%/ruven/eldoth.bmp~ ~override/eldothm.bmp~
 COPY ~%MOD_FOLDER%/ruven/eldoth.bmp~ ~override/eldoths.bmp~
 
 
-BEGIN @35 /* ruvan_faldorn */
+BEGIN @17 /* ruvan_faldorn */ /* ruvan_faldorn */
 DESIGNATED 113
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan faldorn~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/faldorn.bmp~ ~override/faldornl.bmp~
 COPY ~%MOD_FOLDER%/ruven/faldorn.bmp~ ~override/faldornm.bmp~
 COPY ~%MOD_FOLDER%/ruven/faldorn.bmp~ ~override/faldorns.bmp~
 
 
-BEGIN @36 /* ruvan_glint */
+BEGIN @18 /* ruvan_glint */ /* ruvan_glint */
 DESIGNATED 114
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan glint~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/glint.bmp~ ~override/glintl.bmp~
 COPY ~%MOD_FOLDER%/ruven/glint.bmp~ ~override/glintm.bmp~
 COPY ~%MOD_FOLDER%/ruven/glint.bmp~ ~override/glints.bmp~
 
 
-BEGIN @37 /* ruvan_haerdalis */
+BEGIN @19 /* ruvan_haerdalis */ /* ruvan_haerdalis */
 DESIGNATED 115
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan haerdalis~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerl.bmp~
 COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerm.bmp~
 
 
-BEGIN @38 /* ruvan_hexaat */
+BEGIN @20 /* ruvan_hexaat */ /* ruvan_hexaat */
 DESIGNATED 116
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan hexaat~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxl.bmp~
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxm.bmp~
 
 
-BEGIN @7 /* ruvan_imeon */
+BEGIN @21 /* ruvan_imeon */ /* ruvan_imeon */
 DESIGNATED 117
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan imeon~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
 COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
@@ -254,11 +254,11 @@ COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
 COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoens.bmp~
 
 
-BEGIN @39 /* ruvan_jaheira */
+BEGIN @22 /* ruvan_jaheira */ /* ruvan_jaheira */
 DESIGNATED 118
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan jaheira~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheiral.bmp~
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheiram.bmp~
@@ -267,62 +267,62 @@ COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheirl.bmp~
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheirm.bmp~
 
 
-BEGIN @40 /* ruvan_jan */
+BEGIN @23 /* ruvan_jan */ /* ruvan_jan */
 DESIGNATED 119
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan jan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/jan.bmp~ ~override/njanl.bmp~
 COPY ~%MOD_FOLDER%/ruven/jan.bmp~ ~override/njanm.bmp~
 
 
-BEGIN @41 /* ruvan_kagain */
+BEGIN @24 /* ruvan_kagain */ /* ruvan_kagain */
 DESIGNATED 120
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan kagain~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/kagain.bmp~ ~override/kagainl.bmp~
 COPY ~%MOD_FOLDER%/ruven/kagain.bmp~ ~override/kagainm.bmp~
 COPY ~%MOD_FOLDER%/ruven/kagain.bmp~ ~override/kagains.bmp~
 
 
-BEGIN @42 /* ruvan_keldorn */
+BEGIN @25 /* ruvan_keldorn */ /* ruvan_keldorn */
 DESIGNATED 121
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan keldorn~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/keldorn.bmp~ ~override/nkeldorl.bmp~
 COPY ~%MOD_FOLDER%/ruven/keldorn.bmp~ ~override/nkeldorm.bmp~
 
 
-BEGIN @43 /* ruvan_korgan */
+BEGIN @26 /* ruvan_korgan */ /* ruvan_korgan */
 DESIGNATED 122
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan korgan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/korgan.bmp~ ~override/nkorganl.bmp~
 COPY ~%MOD_FOLDER%/ruven/korgan.bmp~ ~override/nkorganm.bmp~
 
 
-BEGIN @44 /* ruvan_mazzy */
+BEGIN @27 /* ruvan_mazzy */ /* ruvan_mazzy */
 DESIGNATED 123
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan mazzy~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/mazzy.bmp~ ~override/nmazzyl.bmp~
 COPY ~%MOD_FOLDER%/ruven/mazzy.bmp~ ~override/nmazzym.bmp~
 
 
-BEGIN @45 /* ruvan_minsc */
+BEGIN @28 /* ruvan_minsc */ /* ruvan_minsc */
 DESIGNATED 124
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan minsc~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/minsc.bmp~ ~override/minscl.bmp~
 COPY ~%MOD_FOLDER%/ruven/minsc.bmp~ ~override/minscm.bmp~
@@ -331,118 +331,118 @@ COPY ~%MOD_FOLDER%/ruven/minsc.bmp~ ~override/nminscl.bmp~
 COPY ~%MOD_FOLDER%/ruven/minsc.bmp~ ~override/nminscm.bmp~
 
 
-BEGIN @46 /* ruvan_montaron */
+BEGIN @29 /* ruvan_montaron */ /* ruvan_montaron */
 DESIGNATED 125
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan montaron~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/montaron.bmp~ ~override/montarl.bmp~
 COPY ~%MOD_FOLDER%/ruven/montaron.bmp~ ~override/montarm.bmp~
 COPY ~%MOD_FOLDER%/ruven/montaron.bmp~ ~override/montars.bmp~
 
 
-BEGIN @47 /* ruvan_nalia */
+BEGIN @30 /* ruvan_nalia */ /* ruvan_nalia */
 DESIGNATED 126
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan nalia~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/nalia.bmp~ ~override/nnalial.bmp~
 COPY ~%MOD_FOLDER%/ruven/nalia.bmp~ ~override/nnaliam.bmp~
 
 
-BEGIN @48 /* ruvan_neera */
+BEGIN @31 /* ruvan_neera */ /* ruvan_neera */
 DESIGNATED 127
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan neera~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/neera.bmp~ ~override/neeral.bmp~
 COPY ~%MOD_FOLDER%/ruven/neera.bmp~ ~override/neeram.bmp~
 COPY ~%MOD_FOLDER%/ruven/neera.bmp~ ~override/neeras.bmp~
 
 
-BEGIN @49 /* ruvan_quayle */
+BEGIN @32 /* ruvan_quayle */ /* ruvan_quayle */
 DESIGNATED 128
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan quayle~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/quayle.bmp~ ~override/quaylel.bmp~
 COPY ~%MOD_FOLDER%/ruven/quayle.bmp~ ~override/quaylem.bmp~
 COPY ~%MOD_FOLDER%/ruven/quayle.bmp~ ~override/quayles.bmp~
 
 
-BEGIN @50 /* ruvan_rasaad */
+BEGIN @33 /* ruvan_rasaad */ /* ruvan_rasaad */
 DESIGNATED 129
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan rasaad~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/rasaad.bmp~ ~override/rasaadl.bmp~
 COPY ~%MOD_FOLDER%/ruven/rasaad.bmp~ ~override/rasaadm.bmp~
 COPY ~%MOD_FOLDER%/ruven/rasaad.bmp~ ~override/rasaads.bmp~
 
 
-BEGIN @51 /* ruvan_safana */
+BEGIN @34 /* ruvan_safana */ /* ruvan_safana */
 DESIGNATED 130
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan safana~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/safana.bmp~ ~override/safanal.bmp~
 COPY ~%MOD_FOLDER%/ruven/safana.bmp~ ~override/safanam.bmp~
 COPY ~%MOD_FOLDER%/ruven/safana.bmp~ ~override/safanas.bmp~
 
 
-BEGIN @52 /* ruvan_sarevok */
+BEGIN @35 /* ruvan_sarevok */ /* ruvan_sarevok */
 DESIGNATED 131
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan sarevok~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/sarevok.bmp~ ~override/nsarevokl.bmp~
 COPY ~%MOD_FOLDER%/ruven/sarevok.bmp~ ~override/nsarevokm.bmp~
 
 
-BEGIN @53 /* ruvan_sharteel */
+BEGIN @36 /* ruvan_sharteel */ /* ruvan_sharteel */
 DESIGNATED 132
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan sharteel~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/sharteel.bmp~ ~override/shartell.bmp~
 COPY ~%MOD_FOLDER%/ruven/sharteel.bmp~ ~override/shartelm.bmp~
 COPY ~%MOD_FOLDER%/ruven/sharteel.bmp~ ~override/shartels.bmp~
 
 
-BEGIN @54 /* ruvan_skie */
+BEGIN @37 /* ruvan_skie */ /* ruvan_skie */
 DESIGNATED 133
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan skie~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/skie.bmp~ ~override/skiel.bmp~
 COPY ~%MOD_FOLDER%/ruven/skie.bmp~ ~override/skiem.bmp~
 COPY ~%MOD_FOLDER%/ruven/skie.bmp~ ~override/skies.bmp~
 
 
-BEGIN @55 /* ruvan_valygar */
+BEGIN @38 /* ruvan_valygar */ /* ruvan_valygar */
 DESIGNATED 134
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan valygar~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/valygar.bmp~ ~override/nvalygal.bmp~
 COPY ~%MOD_FOLDER%/ruven/valygar.bmp~ ~override/nvalygam.bmp~
 
 
-BEGIN @9 /* ruvan_viconia */
+BEGIN @39 /* ruvan_viconia */ /* ruvan_viconia */
 DESIGNATED 135
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan viconia~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconial.bmp~
 COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/viconiam.bmp~
@@ -454,55 +454,55 @@ COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconl.bmp~
 COPY ~%MOD_FOLDER%/ruven/viconia.bmp~ ~override/nviconm.bmp~
 
 
-BEGIN @56 /* ruvan_voghiln */
+BEGIN @40 /* ruvan_voghiln */ /* ruvan_voghiln */
 DESIGNATED 136
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan voghiln~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/voghiln.bmp~ ~override/voghilnl.bmp~
 COPY ~%MOD_FOLDER%/ruven/voghiln.bmp~ ~override/voghilnm.bmp~
 COPY ~%MOD_FOLDER%/ruven/voghiln.bmp~ ~override/voghilns.bmp~
 
 
-BEGIN @57 /* ruvan_xan */
+BEGIN @41 /* ruvan_xan */ /* ruvan_xan */
 DESIGNATED 137
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan xan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/xan.bmp~ ~override/xanl.bmp~
 COPY ~%MOD_FOLDER%/ruven/xan.bmp~ ~override/xanm.bmp~
 COPY ~%MOD_FOLDER%/ruven/xan.bmp~ ~override/xans.bmp~
 
 
-BEGIN @58 /* ruvan_xzar */
+BEGIN @42 /* ruvan_xzar */ /* ruvan_xzar */
 DESIGNATED 138
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan xzar~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/xzar.bmp~ ~override/xzarl.bmp~
 COPY ~%MOD_FOLDER%/ruven/xzar.bmp~ ~override/xzarm.bmp~
 COPY ~%MOD_FOLDER%/ruven/xzar.bmp~ ~override/xzars.bmp~
 
 
-BEGIN @59 /* ruvan_yeslick */
+BEGIN @43 /* ruvan_yeslick */ /* ruvan_yeslick */
 DESIGNATED 139
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan yeslick~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/yeslick.bmp~ ~override/yeslickl.bmp~
 COPY ~%MOD_FOLDER%/ruven/yeslick.bmp~ ~override/yeslickm.bmp~
 COPY ~%MOD_FOLDER%/ruven/yeslick.bmp~ ~override/yeslicks.bmp~
 
 
-BEGIN @60 /* ruvan_yoshimo */
+BEGIN @44 /* ruvan_yoshimo */ /* ruvan_yoshimo */
 DESIGNATED 140
-GROUP @8 /* ruvan */
+GROUP @4 /* ruvan */ /* ruvan */
 LABEL ~Ruvan yoshimo~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruven/yoshimo.bmp~ ~override/nyoshiml.bmp~
 COPY ~%MOD_FOLDER%/ruven/yoshimo.bmp~ ~override/nyoshimm.bmp~
@@ -515,21 +515,21 @@ COPY ~%MOD_FOLDER%/ruven/yoshimo.bmp~ ~override/nyoshimm.bmp~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @10 /* trouver_alora */
+BEGIN @45 /* trouver_alora */ /* trouver_alora */
 DESIGNATED 201
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver Alora Portrais~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override~
 COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override/aloram.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/aloral.bmp~ ~override/aloras.bmp~
 
-BEGIN @12 /* trouver_jaheira */
+BEGIN @47 /* trouver_jaheira */ /* trouver_jaheira */
 DESIGNATED 202
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver Jaheria~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiral.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiram.bmp~
@@ -537,41 +537,51 @@ COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/jaheiras.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/njaheirl.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/jaheiral.bmp~ ~override/njaheirm.bmp~
 
-BEGIN @13 /* trouver_branwen */
+BEGIN @48 /* trouver_branwen */ /* trouver_branwen */
 DESIGNATED 203
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver branwen~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwel.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwem.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/branwel.bmp~ ~override/branwes.bmp~
 
-BEGIN @18 /* trouver_xan */
+BEGIN @49 /* trouver_xan */ /* trouver_xan */
 DESIGNATED 204
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver xan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanl.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xanm.bmp~
 COPY ~%MOD_FOLDER%/trouver/npcs/xanl.bmp~ ~override/xans.bmp~
 
-BEGIN @21 /* trouver_baddies */
+BEGIN @50 /* trouver_caelar */ /* trouver_caelar */
 DESIGNATED 205
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
+LABEL ~Trouver caelar~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/trouver/npcs/caelarl.bmp~ ~override/caelarl.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/caelarl.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/trouver/npcs/caelarl.bmp~ ~override/caelars.bmp~
+
+BEGIN @51 /* trouver_baddies */ /* trouver_baddies */
+DESIGNATED 275
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver Baddies portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/baddies~ ~override~
 COPY_EXISTING ~njonl.bmp~ ~override/njonm.bmp~
 COPY_EXISTING ~njonl.bmp~ ~override/njons.bmp~
 
-BEGIN @62 /* trouver_bg1sod */
+BEGIN @52 /* trouver_bg1sod */ /* trouver_bg1sod */
 DESIGNATED 290
-GROUP @11 /* trouver */
+GROUP @46 /* trouver */ /* trouver */
 LABEL ~Trouver bg1sod portraits~
-REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/trouver/bg1sod~ ~override~
 
@@ -583,68 +593,75 @@ COPY ~%MOD_FOLDER%/trouver/bg1sod~ ~override~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @63 /* zenblack_aerie */
-DESIGNATED 100
-GROUP @15 /* zenblack */
+
+BEGIN @53 /* zenblack_aerie */
+DESIGNATED 300
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack aerie~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/aerie.bmp~ ~override/naeriel.bmp~
 COPY ~%MOD_FOLDER%/zenblack/aerie.bmp~ ~override/naeriem.bmp~
 
-BEGIN @64 /* zenblack_anomen */
-DESIGNATED 101
-GROUP @15 /* zenblack */
+
+BEGIN @55 /* zenblack_anomen */
+DESIGNATED 301
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack anomen~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/anomen.bmp~ ~override/nanomenl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/anomen.bmp~ ~override/nanomenm.bmp~
 
-BEGIN @65 /* zenblack_caelar */
-DESIGNATED 102
-GROUP @15 /* zenblack */
+
+BEGIN @56 /* zenblack_caelar */
+DESIGNATED 302
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack caelar~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelarl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelarm.bmp~
 COPY ~%MOD_FOLDER%/zenblack/caelar.bmp~ ~override/caelars.bmp~
 
-BEGIN @82 /* zenblack_dorn */
-DESIGNATED 103
-GROUP @15 /* zenblack */
+
+BEGIN @57 /* zenblack_dorn */
+DESIGNATED 303
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack dorn~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/dorn.bmp~ ~override/dornl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/dorn.bmp~ ~override/dornm.bmp~
 COPY ~%MOD_FOLDER%/zenblack/dorn.bmp~ ~override/dorns.bmp~
 
-BEGIN @66 /* zenblack_dynaheir */
-DESIGNATED 104
-GROUP @15 /* zenblack */
+
+BEGIN @58 /* zenblack_dynaheir */
+DESIGNATED 304
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack dynaheir~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheil.bmp~
 COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheim.bmp~
 COPY ~%MOD_FOLDER%/zenblack/dynaheir.bmp~ ~override/dynaheis.bmp~
 
-BEGIN @67 /* zenblack_hexaat */
-DESIGNATED 105
-GROUP @15 /* zenblack */
+
+BEGIN @59 /* zenblack_hexaat */
+DESIGNATED 305
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack hexaat~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/hexaat.bmp~ ~override/ohhexxl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/hexaat.bmp~ ~override/ohhexxm.bmp~
 
-BEGIN @68 /* zenblack_jaheira */
-DESIGNATED 106
-GROUP @15 /* zenblack */
+
+BEGIN @60 /* zenblack_jaheira */
+DESIGNATED 306
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack jaheira~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiral.bmp~
 COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiram.bmp~
@@ -652,94 +669,104 @@ COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheiras.bmp~
 COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheirl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/jaheira.bmp~ ~override/jaheirm.bmp~
 
-BEGIN @69 /* zenblack_keldorn */
-DESIGNATED 107
-GROUP @15 /* zenblack */
+
+BEGIN @61 /* zenblack_keldorn */
+DESIGNATED 307
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack keldorn~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/keldorn.bmp~ ~override/nkeldorl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/keldorn.bmp~ ~override/nkeldorm.bmp~
 
-BEGIN @70 /* zenblack_korgan */
-DESIGNATED 108
-GROUP @15 /* zenblack */
+
+BEGIN @62 /* zenblack_korgan */
+DESIGNATED 308
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack korgan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/korgan.bmp~ ~override/nkorganl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/korgan.bmp~ ~override/nkorganm.bmp~
 
-BEGIN @71 /* zenblack_mazzy */
-DESIGNATED 109
-GROUP @15 /* zenblack */
+
+BEGIN @63 /* zenblack_mazzy */
+DESIGNATED 309
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack mazzy~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/mazzy.bmp~ ~override/nmazzyl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/mazzy.bmp~ ~override/nmazzym.bmp~
 
-BEGIN @72 /* zenblack_nalia */
-DESIGNATED 110
-GROUP @15 /* zenblack */
+
+BEGIN @64 /* zenblack_nalia */
+DESIGNATED 310
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack nalia~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/nalia.bmp~ ~override/nnalial.bmp~
 COPY ~%MOD_FOLDER%/zenblack/nalia.bmp~ ~override/nnaliam.bmp~
 
-BEGIN @73 /* zenblack_neera */
-DESIGNATED 111
-GROUP @15 /* zenblack */
+
+BEGIN @65 /* zenblack_neera */
+DESIGNATED 311
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack neera~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeral.bmp~
 COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeram.bmp~
 COPY ~%MOD_FOLDER%/zenblack/neera.bmp~ ~override/neeras.bmp~
 
-BEGIN @74 /* zenblack_safana */
-DESIGNATED 112
-GROUP @15 /* zenblack */
+
+BEGIN @66 /* zenblack_safana */
+DESIGNATED 312
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack safana~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanal.bmp~
 COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanam.bmp~
 COPY ~%MOD_FOLDER%/zenblack/safana.bmp~ ~override/safanas.bmp~
 
-BEGIN @75 /* zenblack_skie */
-DESIGNATED 113
-GROUP @15 /* zenblack */
+
+BEGIN @67 /* zenblack_skie */
+DESIGNATED 313
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack skie~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skiel.bmp~
 COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skiem.bmp~
 COPY ~%MOD_FOLDER%/zenblack/skie.bmp~ ~override/skies.bmp~
 
-BEGIN @76 /* zenblack_tamoko */
-DESIGNATED 114
-GROUP @15 /* zenblack */
+
+BEGIN @68 /* zenblack_tamoko */
+DESIGNATED 314
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack tamoko~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/tamoko.bmp~ ~override/chtaz02.bmp~
 
-BEGIN @77 /* zenblack_valygar */
-DESIGNATED 115
-GROUP @15 /* zenblack */
+
+BEGIN @69 /* zenblack_valygar */
+DESIGNATED 315
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack valygar~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/valygar.bmp~ ~override/nvalygal.bmp~
 COPY ~%MOD_FOLDER%/zenblack/valygar.bmp~ ~override/nvalygam.bmp~
 
-BEGIN @78 /* zenblack_viconia */
-DESIGNATED 116
-GROUP @15 /* zenblack */
+
+BEGIN @70 /* zenblack_viconia */
+DESIGNATED 316
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack viconia~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconial.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/viconiam.bmp~
@@ -750,64 +777,65 @@ COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/bdvicons.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/viconia.bmp~ ~override/nviconm.bmp~
 
-BEGIN @79 /* zenblack_xan */
-DESIGNATED 117
-GROUP @15 /* zenblack */
+
+BEGIN @71 /* zenblack_xan */
+DESIGNATED 317
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack xan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xanl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xanm.bmp~
 COPY ~%MOD_FOLDER%/zenblack/xan.bmp~ ~override/xans.bmp~
 
-BEGIN @80 /* zenblack_yeslick */
-DESIGNATED 118
-GROUP @15 /* zenblack */
+
+BEGIN @72 /* zenblack_yeslick */
+DESIGNATED 318
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack yeslick~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* ruvan_aerie */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslickl.bmp~
 COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslickm.bmp~
 COPY ~%MOD_FOLDER%/zenblack/yeslick.bmp~ ~override/yeslicks.bmp~
 
-
-BEGIN @14 /* zenblacks_sendai */
+BEGIN @73 /* zenblacks_sendai */ /* zenblacks_sendai */
 DESIGNATED 350
-GROUP @15 /* zenblack */
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack sendai~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/baddies/sendais.bmp~ ~override~
 
-BEGIN @19 /* zenblacks_yagashrs */
+BEGIN @74 /* zenblacks_yagashrs */ /* zenblacks_yagashrs */
 DESIGNATED 351
-GROUP @15 /* zenblack */
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack yagashrs~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/baddies/yagashrs.bmp~ ~override/yagashrs.bmp~
 
-BEGIN @20 /* zenblacks_amelissan */
+BEGIN @75 /* zenblacks_amelissan */ /* zenblacks_amelissan */
 DESIGNATED 352
-GROUP @15 /* zenblack */
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblack amelissan~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/baddies/mel_bads.bmp~ ~override/mel_bads.bmp~
 
-BEGIN @61 /* zenblacks_llewren_charname */
+BEGIN @76 /* zenblacks_llewren_charname */ /* zenblacks_llewren_charname */
 DESIGNATED 375
-GROUP @15 /* zenblack */
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblacks llewren charname~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/charname/felfM.bmp~ ~override~
 
-BEGIN @81 /* zenblacks_ruven_viconia */
+BEGIN @77 /* zenblacks_ruven_viconia */ /* zenblacks_ruven_viconia */
 DESIGNATED 385
-GROUP @15 /* zenblack */
+GROUP @54 /* zenblack */ /* zenblack */
 LABEL ~zenblacks ruven viconia~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */ /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/viconial.bmp~
 COPY ~%MOD_FOLDER%/zenblack/ruven/viconia.bmp~ ~override/viconiam.bmp~
