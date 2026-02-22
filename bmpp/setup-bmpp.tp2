@@ -1,8 +1,8 @@
-BACKUP ~weidu_external/bmpp/backup~
+BACKUP ~weidu_external/backup/bmpp~
 AUTHOR ~dark0dave~
 AUTO_EVAL_STRINGS
 
-VERSION @0 /* v0.12.0 */
+VERSION @0 /* v0.13.0 */
 
 AUTO_TRA ~%MOD_FOLDER%/languages/%s~
 LANGUAGE ~English~
