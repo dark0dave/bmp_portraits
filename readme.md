@@ -1,21 +1,15 @@
-[![](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/dark0dave/bmp_portraits/releases/latest)
-[![](https://img.shields.io/badge/Windows-0078D6?&style=for-the-badge&logoColor=white&logo=git-for-windows)](https://github.com/dark0dave/bmp_portraits/releases/latest)
-[![](https://img.shields.io/badge/mac%20os-grey?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/dark0dave/bmp_portraits/releases/latest)
-[![](https://img.shields.io/github/actions/workflow/status/dark0dave/bmp_portraits/main.yaml?style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/actions/workflows/main.yaml)
 # Constient Portraits for BGEE, BG2EE and EET
+[![Release](https://img.shields.io/github/v/release/dark0dave/bmp_portraits?include_prereleases&color=41788a&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
+[![Published](https://img.shields.io/github/release-date-pre/dark0dave/bmp_portraits?display_date=published_at&label=published&color=014a69&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/dark0dave/bmp_portraits/total?color=41788a&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
+[![Language](https://img.shields.io/badge/language-english-014a69?style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
+[![Games](https://img.shields.io/badge/games-BGEE%20%a0%20BG2EE%20%a0%20EET-41788a?style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69?style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
+[![Checks](https://img.shields.io/github/actions/workflow/status/dark0dave/bmp_portraits/checks.yaml?style=for-the-badge&color=41788a)](https://github.com/dark0dave/bmp_portraits/actions/workflows/checks.yaml)
+
 
 Taken from:
 
-- [bg2ee_realistic](https://www.nexusmods.com/baldursgate2ee/mods/76)
-- [portraits](https://forums.beamdog.com/discussion/87200/some-stable-diffusion-potraits#latest)
-- [realistic](https://www.nexusmods.com/baldursgate/mods/52)
-- [top_edwin](https://www.nexusmods.com/baldursgate/mods/52)
-- [top_faldorn](https://github.com/dark0dave/ensrick_portraits)
-- [top_jaheria](https://www.nexusmods.com/baldursgate/mods/7)
-- [top_misnc](https://github.com/dark0dave/ensrick_portraits)
-- [top_neera](https://github.com/dark0dave/ensrick_portrait)
-- [top_viconia](https://github.com/dark0dave/ensrick_portraits)
-- [top_voghlin](https://github.com/dark0dave/ensrick_portraits)
 - [npcs] Bodhi from Minsc and Boo Book of Villainy to have a higher resolution alternate for her in BG2 stolen from Troveur on discord
 - [trouver] Troveur on discord and G3
 - [ruven] Ruven on discord
