@@ -55,18 +55,16 @@ npcs["yeslick"]="yeslickl,yeslickm,yeslicks"
 npcs["yoshimo"]="nyoshiml,nyoshimm"
 
 template() {
-  group=$(cat languages/english/weidu.tra | grep "~${5}~"| awk '{print $1}')
   echo """
 BEGIN ~${5}_${1}~
 DESIGNATED ${4}
-GROUP ${group} /* ${5} */
+GROUP ~${5}~
 LABEL ~${5} ${1}~
-REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @3 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ ~This mod cannot be installed on this game~
 """
   for file in $(echo "${2}" | tr ',' ' ' ); do
     echo "COPY ~%MOD_FOLDER%/${3}~ ~override/${file}.bmp~"
   done
-  echo ""
 }
 
 main() {
