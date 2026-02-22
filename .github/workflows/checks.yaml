@@ -2,13 +2,18 @@ name: 'checks'
 on:
   pull_request:
 jobs:
-  build:
+  pre-commit:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          set-safe-directory: true
-          fetch-depth: 0
-      - name: Check for bmp files bigger than 8
-        id: bmp_checks
-        run: ./.github/scripts/check.sh "*bmp"
+    - uses: actions/checkout@main
+      with:
+        set-safe-directory: true
+        fetch-depth: 0
+    - uses: actions/setup-python@main
+    - run: |
+        wget -q https://github.com/WeiDUorg/weidu/releases/download/v249.00/WeiDU-Linux-249-amd64.zip
+        unzip WeiDU-Linux-249-amd64.zip
+        rm WeiDU-Linux-249-amd64.zip
+        sudo mv WeiDU-Linux/weidu /usr/local/bin/weidu
+        rm -rf WeiDU-Linux
+    - uses: pre-commit/action@main

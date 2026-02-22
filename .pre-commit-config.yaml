@@ -1,22 +1,39 @@
-default_install_hook_types: [pre-commit, commit-msg]
+default_install_hook_types: [pre-commit]
 repos:
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
-    hooks:
-      - id: trailing-whitespace
-        stages: [pre-commit]
-      - id: end-of-file-fixer
-        stages: [pre-commit]
-        exclude_types: [ svg ]
-  - repo: https://github.com/codespell-project/codespell
-    rev: v2.4.1
-    hooks:
-      - id: codespell
-        entry: codespell
-        stages: [pre-commit]
-        exclude: (?x)^([bg|fixtures])
-  - repo: https://github.com/commitizen-tools/commitizen
-    rev: v4.8.3
-    hooks:
-      - id: commitizen
-        stages: [commit-msg]
+- repo: local
+  hooks:
+    - id: check-weidu
+      stages: [pre-commit]
+      name: check-weidu
+      description: check if weidu files are parsable
+      entry: .github/scripts/check-weidu.sh
+      language: system
+      pass_filenames: true
+    - id: ie-file-check
+      stages: [pre-commit]
+      name: infinity engine file check
+      description: Infinity Engine File Check
+      entry: .github/scripts/check-ie.sh
+      language: system
+      pass_filenames: false
+    - id: case-check
+      stages: [pre-commit]
+      name: check case conflict
+      description: Check case conflict
+      entry: .github/scripts/check-case.sh
+      language: system
+      pass_filenames: false
+    - id: version-check
+      stages: [pre-commit]
+      name: version check
+      description: Check the version
+      entry: .github/scripts/check-version.sh
+      language: script
+      pass_filenames: false
+    - id: git-check
+      stages: [pre-commit]
+      name: git check
+      description: Git check
+      entry: .github/scripts/check-git.sh
+      language: system
+      pass_filenames: false
