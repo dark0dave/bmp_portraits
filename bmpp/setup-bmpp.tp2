@@ -884,30 +884,30 @@ COPY ~%MOD_FOLDER%/zenblack/ruven/dynaheir.bmp~ ~override/dynaheis.bmp~
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////                                                  \\\\\
-///// MCR portraits                                    \\\\\
+///// kaelyn portraits                                 \\\\\
 /////                                                  \\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 
-BEGIN @83 /* mcr_charname */
+BEGIN @83 /* kaelyn_charname */
 DESIGNATED 400
-GROUP @84 /* mcr */
-LABEL ~mcr charname~
+GROUP @84 /* kaelyn */
+LABEL ~kaelyn charname~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/mcr/charname/~ ~override~
+COPY ~%MOD_FOLDER%/kaelyn/charname/~ ~override~
 
-BEGIN @85 /* mcr_npcs */
+BEGIN @85 /* kaelyn_npcs */
 DESIGNATED 401
-GROUP @84 /* mcr */
-LABEL ~mcr npcs~
+GROUP @84 /* kaelyn */
+LABEL ~kaelyn npcs~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/mcr/npcs/caelar.bmp~ ~override/caelarl.bmp~
-COPY ~%MOD_FOLDER%/mcr/npcs/caelar.bmp~ ~override/caelarm.bmp~
-COPY ~%MOD_FOLDER%/mcr/npcs/caelar.bmp~ ~override/caelars.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/caelar.bmp~ ~override/caelarl.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/caelar.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/caelar.bmp~ ~override/caelars.bmp~
 
-COPY ~%MOD_FOLDER%/mcr/npcs/neris3.bmp~ ~override/neris3.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/neris3.bmp~ ~override/neris3.bmp~
 
-COPY ~%MOD_FOLDER%/mcr/npcs/wiillase.bmp~ ~override/wiillase.bmp~
-COPY ~%MOD_FOLDER%/mcr/npcs/wiillase.bmp~ ~override/illasera.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/wiillase.bmp~ ~override/wiillase.bmp~
+COPY ~%MOD_FOLDER%/kaelyn/npcs/wiillase.bmp~ ~override/illasera.bmp~
