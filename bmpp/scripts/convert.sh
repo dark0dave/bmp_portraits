@@ -8,7 +8,7 @@ main() {
   name="${base_name}.bmp"
   ffmpeg -i "${base_name}.${extension}" "${name}" >/dev/null || exit 1
   convert "${name}" -type truecolor "${name}" || exit 1
-  rm -f "${1}" || true
+  [[ "${extension}" != "bmp" ]] && rm -f "${1}" || true
   echo "removed ${1}"
 }
 
