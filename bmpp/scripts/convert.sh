@@ -6,8 +6,8 @@ main() {
   base_name="${filename%.*}"
   extension="${filename##*.}"
   name="${base_name}.bmp"
-  ffmpeg -i "${base_name}.${extension}" "${name}" >/dev/null || exit 1
-  convert "${name}" -type truecolor "${name}" || exit 1
+  ffmpeg -i "${base_name}.${extension}" -pix_fmt bgr24 "${name}" >/dev/null
+  magick "${name}" -define bmp:format=bmp3 -depth 8 -type TrueColor "${name}"
   [[ "${extension}" != "bmp" ]] && rm -f "${1}" || true
   echo "removed ${1}"
 }
