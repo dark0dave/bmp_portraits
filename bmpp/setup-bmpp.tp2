@@ -650,6 +650,15 @@ REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installe
 
 COPY ~%MOD_FOLDER%/ruvan/charname/~ ~override~
 
+BEGIN @87 /* ruven_edwina */
+DESIGNATED 176
+GROUP @4 /* ruvan */
+LABEL ~ruvan extras~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/ruvan/edwina~ ~override/edwinal~
+COPY ~%MOD_FOLDER%/ruvan/edwina~ ~override/edwinam~
+
 BEGIN @46 /* ruvan_crossmod */
 DESIGNATED 185
 GROUP @4 /* ruvan */
@@ -665,6 +674,7 @@ LABEL ~ruvan villians~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
 COPY ~%MOD_FOLDER%/ruvan/villians/~ ~override~
+
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
@@ -1048,3 +1058,27 @@ COPY ~%MOD_FOLDER%/kaelyn/npcs/neris3.bmp~ ~override/neris3.bmp~
 
 COPY ~%MOD_FOLDER%/kaelyn/npcs/wiillase.bmp~ ~override/wiillase.bmp~
 COPY ~%MOD_FOLDER%/kaelyn/npcs/wiillase.bmp~ ~override/illasera.bmp~
+
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////                                                  \\\\\
+///// Misc                                             \\\\\
+/////                                                  \\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
+
+BEGIN @88 /* edwina */
+DESIGNATED 999995
+GROUP @89 /* misc */
+LABEL @88 /* edwina */
+REQUIRE_PREDICATE GAME_IS ~tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
+REQUIRE_PREDICATE FILE_EXISTS_IN_GAME ~edwinal.bmp~ @90 /* no edwina file found exiting */
+
+// return to edwin
+COPY_EXISTING ~spin662.spl~ ~override~
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = nedwinm END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = nedwins END
+// edwina
+COPY_EXISTING ~spin916.spl~ ~override~
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 1 timing = 1 STR_VAR resource = edwinal END
+  LPF ADD_SPELL_EFFECT INT_VAR opcode = 107 target = 2 parameter2 = 0 timing = 1 STR_VAR resource = edwinam END
