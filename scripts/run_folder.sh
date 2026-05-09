@@ -6,7 +6,7 @@ main() {
   index=${2:-0}
   for file in $(ls ${folder}/*bmp);
   do
-    lib/process.sh ${folder} ${file} $((index++))
+    process.sh ${folder} ${file} $((index++))
   done
 }
 

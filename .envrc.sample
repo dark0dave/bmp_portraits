@@ -1,3 +1,5 @@
 #!/usr/bin/env sh
 set -a
 use flake
+
+PATH="${PWD}/scripts:${PATH}"
