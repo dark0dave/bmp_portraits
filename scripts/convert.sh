@@ -5,7 +5,7 @@ main() {
   filename="$1"
   base_name="${filename%.*}"
   tobmp.sh "${filename}"
-  convert.sh "${base_name}.bmp"
+  resize.sh "${base_name}.bmp"
 }
 
 main "$1"
