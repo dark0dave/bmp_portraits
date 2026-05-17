@@ -16,9 +16,6 @@
               ffmpeg
               git
               gnupg
-              imagemagick
-              jpegoptim
-              optipng
               pre-commit
               weidu
             ];

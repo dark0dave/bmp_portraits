@@ -5,6 +5,5 @@
 *.DS_Store
 .envrc
 .direnv
-bmpp/**/*png
-bmpp/**/*jpg
-bmpp/**/*webp
+*.png
+*.jp*g
