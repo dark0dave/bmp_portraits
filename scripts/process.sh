@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eo pipefail
 
 declare -A npcs
 npcs["aerie"]="naeriel,naeriem"
@@ -73,7 +73,9 @@ main() {
   index="${3}"
   character=$(echo "$file" | awk -F '/' '{print $NF}' | awk -F '.' '{print $1}')
   selected=${npcs[${character}]}
-  template "$character" "$selected" "$file" "$index" "$folder"
+  if [ -n "${selected}" ]; then
+    template "$character" "$selected" "$file" "$index" "$folder"
+  fi
 }
 
 main "$@"
