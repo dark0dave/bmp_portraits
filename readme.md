@@ -1,4 +1,4 @@
-# Constient Portraits for BGEE, BG2EE and EET
+# Consistent Portraits for BGEE, BG2EE and EET
 [![Release](https://img.shields.io/github/v/release/dark0dave/bmp_portraits?include_prereleases&color=41788a&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
 [![Published](https://img.shields.io/github/release-date-pre/dark0dave/bmp_portraits?display_date=published_at&label=published&color=014a69&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/dark0dave/bmp_portraits/total?color=41788a&style=for-the-badge)](https://github.com/dark0dave/bmp_portraits/releases)
