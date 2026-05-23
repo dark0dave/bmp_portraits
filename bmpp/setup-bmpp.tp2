@@ -683,9 +683,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic ajantis~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/ajantis.bmp~ ~override/ajantisl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/ajantis.bmp~ ~override/ajantism.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/ajantis.bmp~ ~override/ajantiss.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantisl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantism.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantiss.bmp~
 
 BEGIN @93 /* buven/_ealistic_alora */
 DESIGNATED 1003
@@ -693,9 +693,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic alora~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/alora.bmp~ ~override/aloral.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/alora.bmp~ ~override/aloram.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/alora.bmp~ ~override/aloras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloras.bmp~
 
 BEGIN @94 /* buven/_ealistic_baeloth */
 DESIGNATED 1004
@@ -703,9 +703,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic baeloth~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/baeloth.bmp~ ~override/baelothl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/baeloth.bmp~ ~override/baelothm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/baeloth.bmp~ ~override/baeloths.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baelothl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baelothm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baeloths.bmp~
 
 BEGIN @95 /* buven/_ealistic_caelar */
 DESIGNATED 1022
@@ -713,9 +713,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic caelar~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/caelar.bmp~ ~override/caelarl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/caelar.bmp~ ~override/caelarm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/caelar.bmp~ ~override/caelars.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelars.bmp~
 
 BEGIN @96 /* buven/_ealistic_coran */
 DESIGNATED 1023
@@ -723,9 +723,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic coran~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/coran.bmp~ ~override/coranl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/coran.bmp~ ~override/coranm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/coran.bmp~ ~override/corans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/coranl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/coranm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/corans.bmp~
 
 BEGIN @97 /* buven/_ealistic_dorn */
 DESIGNATED 1024
@@ -733,9 +733,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic dorn~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/dorn.bmp~ ~override/dornl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/dorn.bmp~ ~override/dornm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/dorn.bmp~ ~override/dorns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dorns.bmp~
 
 BEGIN @98 /* buven/_ealistic_edwin */
 DESIGNATED 1028
@@ -743,11 +743,11 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic edwin~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/edwin.bmp~ ~override/edwinl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/edwin.bmp~ ~override/edwinm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/edwin.bmp~ ~override/edwins.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/edwin.bmp~ ~override/nedwinl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/edwin.bmp~ ~override/nedwinm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwinl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwinm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwins.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/nedwinl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/nedwinm.bmp~
 
 BEGIN @99 /* buven/_ealistic_eldoth */
 DESIGNATED 1029
@@ -755,9 +755,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic eldoth~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/eldoth.bmp~ ~override/eldothl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/eldoth.bmp~ ~override/eldothm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/eldoth.bmp~ ~override/eldoths.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldothl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldothm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldoths.bmp~
 
 BEGIN @100 /* ruven_realistic_faldorn */
 DESIGNATED 1030
@@ -765,9 +765,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic faldorn~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/faldorn.bmp~ ~override/faldornl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/faldorn.bmp~ ~override/faldornm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/faldorn.bmp~ ~override/faldorns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldornl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldornm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldorns.bmp~
 
 BEGIN @101 /* ruven_realistic_garrick */
 DESIGNATED 1031
@@ -775,9 +775,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic garrick~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/garrick.bmp~ ~override/garrickl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/garrick.bmp~ ~override/garrickm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/garrick.bmp~ ~override/garricks.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garrickl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garrickm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garricks.bmp~
 
 BEGIN @102 /* ruven_realistic_glint */
 DESIGNATED 1035
@@ -785,9 +785,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic glint~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/glint.bmp~ ~override/glintl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/glint.bmp~ ~override/glintm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/glint.bmp~ ~override/glints.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glints.bmp~
 
 BEGIN @103 /* ruven_realistic_jaheira */
 DESIGNATED 1042
@@ -795,11 +795,11 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic jaheira~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/jaheira.bmp~ ~override/jaheiral.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/jaheira.bmp~ ~override/jaheiram.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/jaheira.bmp~ ~override/jaheiras.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/jaheira.bmp~ ~override/jaheirl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/jaheira.bmp~ ~override/jaheirm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheirl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheirm.bmp~
 
 BEGIN @104 /* ruven_realistic_kagain */
 DESIGNATED 1043
@@ -807,9 +807,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic kagain~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kagain.bmp~ ~override/kagainl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kagain.bmp~ ~override/kagainm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kagain.bmp~ ~override/kagains.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagainl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagainm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagains.bmp~
 
 BEGIN @105 /* ruven_realistic_khalid */
 DESIGNATED 1044
@@ -817,9 +817,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic khalid~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/khalid.bmp~ ~override/khalidl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/khalid.bmp~ ~override/khalidm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/khalid.bmp~ ~override/khalids.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalidl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalidm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalids.bmp~
 
 BEGIN @106 /* ruven_realistic_kivan */
 DESIGNATED 1045
@@ -827,9 +827,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic kivan~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kivan.bmp~ ~override/kivanl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kivan.bmp~ ~override/kivanm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/kivan.bmp~ ~override/kivans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivanl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivanm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivans.bmp~
 
 BEGIN @107 /* ruven_realistic_minsc */
 DESIGNATED 1060
@@ -837,11 +837,11 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic minsc~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/minsc.bmp~ ~override/minscl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/minsc.bmp~ ~override/minscm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/minsc.bmp~ ~override/minscs.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/minsc.bmp~ ~override/nminscl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/minsc.bmp~ ~override/nminscm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscs.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscm.bmp~
 
 BEGIN @108 /* ruven_realistic_neera */
 DESIGNATED 1067
@@ -849,9 +849,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic neera~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/neera.bmp~ ~override/neeral.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/neera.bmp~ ~override/neeram.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/neera.bmp~ ~override/neeras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeras.bmp~
 
 BEGIN @109 /* ruven_realistic_quayle */
 DESIGNATED 1080
@@ -859,9 +859,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic quayle~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/quayle.bmp~ ~override/quaylel.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/quayle.bmp~ ~override/quaylem.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/quayle.bmp~ ~override/quayles.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quaylel.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quaylem.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quayles.bmp~
 
 BEGIN @110 /* ruven_realistic_rasaad */
 DESIGNATED 1081
@@ -869,9 +869,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic rasaad~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/rasaad.bmp~ ~override/rasaadl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/rasaad.bmp~ ~override/rasaadm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/rasaad.bmp~ ~override/rasaads.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaadl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaadm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaads.bmp~
 
 BEGIN @111 /* ruven_realistic_safana */
 DESIGNATED 1082
@@ -879,9 +879,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic safana~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/safana.bmp~ ~override/safanal.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/safana.bmp~ ~override/safanam.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/safana.bmp~ ~override/safanas.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanal.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanam.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanas.bmp~
 
 BEGIN @112 /* ruven_realistic_sarevok */
 DESIGNATED 1083
@@ -889,8 +889,8 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic sarevok~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/sarevok.bmp~ ~override/nsarevokl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/sarevok.bmp~ ~override/nsarevokm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/sarevok.bmp~ ~override/nsarevokl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/sarevok.bmp~ ~override/nsarevokm.bmp~
 
 BEGIN @113 /* ruven_realistic_schael */
 DESIGNATED 1084
@@ -898,9 +898,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic schael~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/schael.bmp~ ~override/schaell.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/schael.bmp~ ~override/schaelm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/schael.bmp~ ~override/schaels.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaell.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaelm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaels.bmp~
 
 BEGIN @114 /* ruven_realistic_skie */
 DESIGNATED 1088
@@ -908,9 +908,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic skie~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/skie.bmp~ ~override/skiel.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/skie.bmp~ ~override/skiem.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/skie.bmp~ ~override/skies.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skiel.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skiem.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skies.bmp~
 
 BEGIN @115 /* ruven_realistic_tiax */
 DESIGNATED 1090
@@ -918,9 +918,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic tiax~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/tiax.bmp~ ~override/tiaxl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/tiax.bmp~ ~override/tiaxm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/tiax.bmp~ ~override/tiaxs.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxs.bmp~
 
 BEGIN @116 /* ruven_realistic_viconia */
 DESIGNATED 1092
@@ -928,14 +928,14 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic viconia~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/viconial.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/viconiam.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/viconias.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/bdviconl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/bdviconm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/bdvicons.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/nviconl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/viconia.bmp~ ~override/nviconm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdvicons.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/nviconm.bmp~
 
 BEGIN @117 /* ruven_realistic_voghiln */
 DESIGNATED 1093
@@ -943,9 +943,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic voghiln~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/voghiln.bmp~ ~override/voghilnl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/voghiln.bmp~ ~override/voghilnm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/voghiln.bmp~ ~override/voghilns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilnl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilnm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilns.bmp~
 
 BEGIN @118 /* ruven_realistic_wilson */
 DESIGNATED 1094
@@ -953,8 +953,8 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic wilson~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/wilson.bmp~ ~override/wilsonl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/wilson.bmp~ ~override/wilsonm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/wilson.bmp~ ~override/wilsonl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/wilson.bmp~ ~override/wilsonm.bmp~
 
 BEGIN @119 /* ruven_realistic_xan */
 DESIGNATED 1097
@@ -962,9 +962,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic xan~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xan.bmp~ ~override/xanl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xan.bmp~ ~override/xanm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xan.bmp~ ~override/xans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xanl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xanm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xans.bmp~
 
 BEGIN @120 /* ruven_realistic_xzar */
 DESIGNATED 1098
@@ -972,9 +972,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic xzar~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xzar.bmp~ ~override/xzarl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xzar.bmp~ ~override/xzarm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/xzar.bmp~ ~override/xzars.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzars.bmp~
 
 BEGIN @121 /* ruven_realistic_yeslick */
 DESIGNATED 1112
@@ -982,9 +982,9 @@ GROUP @92 /* ruven_realistic */
 LABEL ~bmpp/ruven/realistic yeslick~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/yeslick.bmp~ ~override/yeslickl.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/yeslick.bmp~ ~override/yeslickm.bmp~
-COPY ~%MOD_FOLDER%/bmpp/ruven/realistic/yeslick.bmp~ ~override/yeslicks.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslicks.bmp~
 
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
 /////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\/////\\\\\
