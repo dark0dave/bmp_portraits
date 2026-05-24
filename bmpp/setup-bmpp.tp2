@@ -238,7 +238,7 @@ COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxl.bmp~
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxm.bmp~
 
 
-BEGIN @21 /* ruven_imoen */
+BEGIN @21 /* ruven_imeon */
 DESIGNATED 117
 GROUP @4 /* ruven */
 LABEL ~ruven imoen~
@@ -737,7 +737,7 @@ COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornm.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dorns.bmp~
 
-BEGIN ~ruven_realistic_dynaheir~
+BEGIN @122 /* ruven_realistic_dynaheir */
 DESIGNATED 1025
 GROUP @92 /* ruven_realistic */
 LABEL ~ruven realistic dynaheir~
@@ -799,7 +799,7 @@ COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintm.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glints.bmp~
 
-BEGIN ~ruven_bg2_imoen~
+BEGIN @123 /* ruven_bg2_imoen */
 DESIGNATED 1036
 GROUP @92 /* ruven_realistic */
 LABEL ~ruven bg1 imoen~
@@ -814,7 +814,7 @@ COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenm.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoens.bmp~
 
-BEGIN ~ruven_bg1_imoen~
+BEGIN @124 /* ruven_bg1_imoen */
 DESIGNATED 1036
 GROUP @92 /* ruven_realistic */
 LABEL ~ruven bg1 imoen~
@@ -883,7 +883,7 @@ COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscs.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscm.bmp~
 
-BEGIN ~ruven_realistic_montaron~
+BEGIN @125 /* ruven_realistic_montaron */
 DESIGNATED 1061
 GROUP @92 /* ruven_realistic */
 LABEL ~ruven realistic montaron~
@@ -1032,6 +1032,126 @@ GROUP @92 /* ruven_realistic */
 LABEL ~ruven realistic yeslick~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslicks.bmp~
+
+BEGIN @126 /* ruven_realistic_all */
+DESIGNATED 1200
+GROUP @92 /* ruven_realistic */
+LABEL ~ruven realistic all~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantisl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantism.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/ajantis.bmp~ ~override/ajantiss.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/alora.bmp~ ~override/aloras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baelothl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baelothm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/baeloth.bmp~ ~override/baeloths.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/caelar.bmp~ ~override/caelars.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/coranl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/coranm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/coran.bmp~ ~override/corans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dornm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dorn.bmp~ ~override/dorns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dynaheir.bmp~ ~override/dynaheil.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dynaheir.bmp~ ~override/dynaheim.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/dynaheir.bmp~ ~override/dynaheis.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwinl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwinm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/edwins.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/nedwinl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/edwin.bmp~ ~override/nedwinm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldothl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldothm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/eldoth.bmp~ ~override/eldoths.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldornl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldornm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/faldorn.bmp~ ~override/faldorns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garrickl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garrickm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/garrick.bmp~ ~override/garricks.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glints.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheiras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheirl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/jaheira.bmp~ ~override/jaheirm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagainl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagainm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kagain.bmp~ ~override/kagains.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalidl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalidm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/khalid.bmp~ ~override/khalids.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivanl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivanm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/kivan.bmp~ ~override/kivans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscs.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montars.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeral.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeram.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/neera.bmp~ ~override/neeras.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quaylel.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quaylem.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/quayle.bmp~ ~override/quayles.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaadl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaadm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/rasaad.bmp~ ~override/rasaads.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanal.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanam.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/safana.bmp~ ~override/safanas.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/sarevok.bmp~ ~override/nsarevokl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/sarevok.bmp~ ~override/nsarevokm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaell.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaelm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/schael.bmp~ ~override/schaels.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skiel.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skiem.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/skie.bmp~ ~override/skies.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/tiax.bmp~ ~override/tiaxs.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconial.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconiam.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/viconias.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdviconm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/bdvicons.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/nviconl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/viconia.bmp~ ~override/nviconm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilnl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilnm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/voghiln.bmp~ ~override/voghilns.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/wilson.bmp~ ~override/wilsonl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/wilson.bmp~ ~override/wilsonm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xanl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xanm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xan.bmp~ ~override/xans.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/xzar.bmp~ ~override/xzars.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslickm.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/yeslick.bmp~ ~override/yeslicks.bmp~
