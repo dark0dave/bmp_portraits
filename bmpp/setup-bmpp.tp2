@@ -853,6 +853,16 @@ COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/minscs.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/minsc.bmp~ ~override/nminscm.bmp~
 
+BEGIN ~ruven_realistic_montaron~
+DESIGNATED 1061
+GROUP @92 /* ruven_realistic */
+LABEL ~ruven realistic montaron~
+REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
+
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montarl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montarm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/montar.bmp~ ~override/montars.bmp~
+
 BEGIN @108 /* ruven_realistic_neera */
 DESIGNATED 1067
 GROUP @92 /* ruven_realistic */
