@@ -238,20 +238,20 @@ COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxl.bmp~
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxm.bmp~
 
 
-BEGIN @21 /* ruven_imeon */
+BEGIN @21 /* ruven_imoen */
 DESIGNATED 117
 GROUP @4 /* ruven */
-LABEL ~ruven imeon~
+LABEL ~ruven imoen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoens.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoens.bmp~
 
 
 BEGIN @22 /* ruven_jaheira */
@@ -561,14 +561,14 @@ COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerl.bmp~
 COPY ~%MOD_FOLDER%/ruven/haerdali.bmp~ ~override/nhaerm.bmp~
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxl.bmp~
 COPY ~%MOD_FOLDER%/ruven/hexaat.bmp~ ~override/ohhexxm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/imoens.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/bdimoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenl.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoenm.bmp~
-COPY ~%MOD_FOLDER%/ruven/imeon.bmp~ ~override/nimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/imoen.bmp~ ~override/nimoens.bmp~
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheiral.bmp~
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheiram.bmp~
 COPY ~%MOD_FOLDER%/ruven/jaheira.bmp~ ~override/jaheiras.bmp~
@@ -799,35 +799,35 @@ COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintl.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glintm.bmp~
 COPY ~%MOD_FOLDER%/ruven/realistic/glint.bmp~ ~override/glints.bmp~
 
-BEGIN ~ruven_bg2_imeon~
+BEGIN ~ruven_bg2_imoen~
 DESIGNATED 1036
 GROUP @92 /* ruven_realistic */
-LABEL ~ruven bg1 imeon~
+LABEL ~ruven bg1 imoen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/imoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/imoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/imoens.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/bdimoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/bdimoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/nimoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/nimoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/imeon.bmp~ ~override/nimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/imoen.bmp~ ~override/nimoens.bmp~
 
-BEGIN ~ruven_bg1_imeon~
+BEGIN ~ruven_bg1_imoen~
 DESIGNATED 1036
 GROUP @92 /* ruven_realistic */
-LABEL ~ruven bg1 imeon~
+LABEL ~ruven bg1 imoen~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/imoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/imoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/imoens.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/bdimoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/bdimoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/nimoenl.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/nimoenm.bmp~
-COPY ~%MOD_FOLDER%/realistic/bg1imeon.bmp~ ~override/nimoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/imoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/imoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/imoens.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/bdimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/bdimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/nimoenl.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/nimoenm.bmp~
+COPY ~%MOD_FOLDER%/ruven/realistic/bg1imoen.bmp~ ~override/nimoens.bmp~
 
 BEGIN @103 /* ruven_realistic_jaheira */
 DESIGNATED 1042
@@ -1326,7 +1326,7 @@ GROUP @56 /* zenblack */
 LABEL ~zenblack yagashrs~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/baddies/yagashrs.bmp~ ~override/yagashrs.bmp~
+COPY ~%MOD_FOLDER%/zenblack/baddies/yagashrs.bmp~ ~override~
 
 BEGIN @77 /* zenblacks_amelissan */
 DESIGNATED 352
@@ -1334,7 +1334,7 @@ GROUP @56 /* zenblack */
 LABEL ~zenblack amelissan~
 REQUIRE_PREDICATE GAME_IS ~bgee tob bg2ee eet~ @2 /* This mod cannot be installed on this game */
 
-COPY ~%MOD_FOLDER%/zenblack/baddies/mel_bads.bmp~ ~override/mel_bads.bmp~
+COPY ~%MOD_FOLDER%/zenblack/baddies/mel_bads.bmp~ ~override~
 
 BEGIN @78 /* zenblacks_llewren_charname */
 DESIGNATED 375
