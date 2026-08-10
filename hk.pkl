@@ -1,0 +1,64 @@
+amends "package://github.com/jdx/hk/releases/download/v1.54.0/hk@1.54.0#/Config.pkl"
+import "package://github.com/jdx/hk/releases/download/v1.54.0/hk@1.54.0#/Builtins.pkl"
+
+local message = new Mapping<String, Step> {
+  ["check-conventional-commit"] = Builtins.check_conventional_commit
+}
+
+local builtins = new Mapping<String, Step> {
+  ["check-case-conflict"] = (Builtins.check_case_conflict) {
+    exclusive = true
+  }
+  ["check-merge-conflict"] = (Builtins.check_merge_conflict) {
+    exclusive = true
+  }
+  ["end-of-file-fixer"] = Builtins.newlines
+  ["mixed-line-ending"] = Builtins.mixed_line_ending
+  ["nix-fmt"] = Builtins.nix_fmt
+  ["trailing-whitespace"] = Builtins.trailing_whitespace
+  ["yamlfmt"] = (Builtins.yamlfmt) {
+    exclusive = true
+  }
+}
+
+local local_hooks = new Mapping<String, Step> {
+  ["codespell"] {
+    glob = List("*.tra", "*.tp2", "*.d", "readme.md")
+    exclude = List("hk.pkl")
+    check = "codespell -c {{files}} --config .codespellrc"
+    fix = "codespell -cw {{files}} --config .codespellrc"
+    exclusive = true
+  }
+  ["check-ie"] {
+    glob = List("*.bam","*.baf","*.cre","*.d","*.itm","*.spl","*.sto","*.wav","*.vvc")
+    check = ".github/scripts/check-ie.sh"
+    exclusive = true
+  }
+  ["check-weidu"] {
+    glob = List("*.d","*.tp2","*.tpa","*.tpp")
+    exclude = List("docs/*/*.d")
+    stdin = "{{ files_list | join(sep='\n') }}"
+    check = "xargs -I {} .github/scripts/check-weidu.sh {}"
+    exclusive = true
+  }
+  ["check-version"] {
+    check = ".github/scripts/check-version.sh"
+    exclusive = true
+  }
+}
+
+hooks {
+  ["commit-msg"] {
+    steps {
+      ...message
+    }
+  }
+  ["pre-commit"] {
+    fix = true
+    stash = "git"
+    steps {
+      ...builtins
+      ...local_hooks
+    }
+  }
+}
